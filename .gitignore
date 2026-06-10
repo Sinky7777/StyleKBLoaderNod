@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+build/
+dist/
+.venv/
+venv/
+.DS_Store
+.vscode/
+.idea/
+_smoke_test.py
+*.zip

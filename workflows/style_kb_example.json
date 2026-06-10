@@ -1,0 +1,68 @@
+{
+  "last_node_id": 3,
+  "last_link_id": 2,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "StyleKBLoader",
+      "pos": [50, 150],
+      "size": [360, 200],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {"name": "prompt", "type": "STRING", "links": [1], "slot_index": 0},
+        {"name": "style_name", "type": "STRING", "links": null},
+        {"name": "aliases", "type": "STRING", "links": null},
+        {"name": "line_primary", "type": "STRING", "links": null},
+        {"name": "line_secondary", "type": "STRING", "links": null},
+        {"name": "brush_material_primary", "type": "STRING", "links": null},
+        {"name": "brush_material_secondary", "type": "STRING", "links": null},
+        {"name": "form_primary", "type": "STRING", "links": null},
+        {"name": "form_secondary", "type": "STRING", "links": null},
+        {"name": "color_primary", "type": "STRING", "links": null},
+        {"name": "color_secondary", "type": "STRING", "links": null},
+        {"name": "techniques_summary", "type": "STRING", "links": null},
+        {"name": "search_text", "type": "STRING", "links": null},
+        {"name": "entry_json", "type": "STRING", "links": null}
+      ],
+      "widgets_values": [
+        "style_technique_knowledge_base.json",
+        "瓷眸凝釉风格",
+        "1girl, masterpiece, best quality",
+        "prepend"
+      ]
+    },
+    {
+      "id": 2,
+      "type": "CLIPTextEncode",
+      "pos": [500, 150],
+      "size": [250, 120],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [{"name": "clip", "type": "CLIP", "link": null}],
+      "outputs": [{"name": "COND", "type": "CONDITIONING", "links": [2]}],
+      "widgets_values": ["{StyleKBLoader:prompt}"]
+    },
+    {
+      "id": 3,
+      "type": "KSampler",
+      "pos": [850, 150],
+      "size": [280, 220],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {"name": "positive", "type": "CONDITIONING", "link": 2}
+      ],
+      "outputs": [{"name": "LATENT", "type": "LATENT", "links": null}],
+      "widgets_values": [12345, "fixed", 20, 8, "euler", "normal", 1, 512, 512, 0, 0, 0]
+    }
+  ],
+  "links": [[1, 1, 0, 2, 0, "STRING"], [2, 2, 0, 3, 2, "CONDITIONING"]],
+  "groups": [],
+  "config": {},
+  "extra": {"workflow_name": "style_kb_example"}
+}

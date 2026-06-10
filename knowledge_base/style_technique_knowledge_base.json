@@ -1,0 +1,3325 @@
+{
+  "schema_version": "1.0.0",
+  "type": "comfyui_style_technique_knowledge_base",
+  "generated_at": "2026-06-10T15:29:11.658Z",
+  "source": {
+    "url": "https://bytedance.larkoffice.com/sheets/VVOHsgUs4hyz6ztWnrXcrNJ6nve",
+    "sheet_title": "Sheet1",
+    "sheet_id": "05a099",
+    "source_column": "C",
+    "source_header": "新一级合并技法标签",
+    "source_range": "05a099!C1:C1252",
+    "total_data_rows": 1251,
+    "non_empty_rows": 1251,
+    "unique_style_entries": 48
+  },
+  "field_schema": {
+    "style_special_word": "风格特殊词",
+    "prompt_phrase": "原始可直接拼接的完整风格技法短语",
+    "techniques": [
+      {
+        "dimension": "line | brush_material | form | color",
+        "dimension_zh": "线条技法 | 质感/材质 | 形体技法 | 色彩技法",
+        "primary": "一级技法标签",
+        "secondary": "二级技法标签"
+      }
+    ],
+    "search_text": "供关键词/向量检索的拼接文本",
+    "indexes": "面向 ComfyUI 检索节点的倒排索引"
+  },
+  "entries": [
+    {
+      "style_special_word": "瓷眸凝釉风格",
+      "aliases": [
+        "瓷眸凝釉"
+      ],
+      "prompt_phrase": "瓷眸凝釉风格，无线稿，瓷面高光边，材质模拟，冷瓷瞳釉，轻度简化，巨瞳圆脸瓷偶，自然/真实色调，自然肤亮釉光",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "无线稿",
+          "secondary": "瓷面高光边"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "材质模拟",
+          "secondary": "冷瓷瞳釉"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "轻度简化",
+          "secondary": "巨瞳圆脸瓷偶"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "自然/真实色调",
+          "secondary": "自然肤亮釉光"
+        }
+      ],
+      "search_text": "瓷眸凝釉风格 无线稿 瓷面高光边 材质模拟 冷瓷瞳釉 轻度简化 巨瞳圆脸瓷偶 自然/真实色调 自然肤亮釉光"
+    },
+    {
+      "style_special_word": "裁片叠影风格",
+      "aliases": [
+        "裁片叠影"
+      ],
+      "prompt_phrase": "裁片叠影风格，无线稿，裁片硬切边，材质模拟，纤维裁片叠影，高度几何化，扁平片层拼形，低饱和/莫兰迪，灰蓝棕红低彩",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "无线稿",
+          "secondary": "裁片硬切边"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "材质模拟",
+          "secondary": "纤维裁片叠影"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "高度几何化",
+          "secondary": "扁平片层拼形"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "低饱和/莫兰迪",
+          "secondary": "灰蓝棕红低彩"
+        }
+      ],
+      "search_text": "裁片叠影风格 无线稿 裁片硬切边 材质模拟 纤维裁片叠影 高度几何化 扁平片层拼形 低饱和/莫兰迪 灰蓝棕红低彩"
+    },
+    {
+      "style_special_word": "冷格平刷风格",
+      "aliases": [
+        "冷格平刷"
+      ],
+      "prompt_phrase": "冷格平刷风格，中等线稿，冷硬闭合墨边，平滑/无纹理，无刷痕数字平刷，高度几何化，二维简块人物，低饱和/莫兰迪，低饱和冷色面",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "中等线稿",
+          "secondary": "冷硬闭合墨边"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "平滑/无纹理",
+          "secondary": "无刷痕数字平刷"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "高度几何化",
+          "secondary": "二维简块人物"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "低饱和/莫兰迪",
+          "secondary": "低饱和冷色面"
+        }
+      ],
+      "search_text": "冷格平刷风格 中等线稿 冷硬闭合墨边 平滑/无纹理 无刷痕数字平刷 高度几何化 二维简块人物 低饱和/莫兰迪 低饱和冷色面"
+    },
+    {
+      "style_special_word": "古机齿块风格",
+      "aliases": [
+        "古机齿块"
+      ],
+      "prompt_phrase": "古机齿块风格，无线稿，阶梯锯齿硬边，像素/颗粒，低清方块显像，轻度简化，块拼怪比例，低饱和/莫兰迪，旧机调色盘",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "无线稿",
+          "secondary": "阶梯锯齿硬边"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "像素/颗粒",
+          "secondary": "低清方块显像"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "轻度简化",
+          "secondary": "块拼怪比例"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "低饱和/莫兰迪",
+          "secondary": "旧机调色盘"
+        }
+      ],
+      "search_text": "古机齿块风格 无线稿 阶梯锯齿硬边 像素/颗粒 低清方块显像 轻度简化 块拼怪比例 低饱和/莫兰迪 旧机调色盘"
+    },
+    {
+      "style_special_word": "断勾干擦风格",
+      "aliases": [
+        "断勾干擦"
+      ],
+      "prompt_phrase": "断勾干擦风格，细线/轻线稿，断续漏接速勾，明显笔触，干擦纸面磨白，高度几何化，速写概括变形，高饱和/鲜艳，局部跳色涂抹",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "细线/轻线稿",
+          "secondary": "断续漏接速勾"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "明显笔触",
+          "secondary": "干擦纸面磨白"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "高度几何化",
+          "secondary": "速写概括变形"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "高饱和/鲜艳",
+          "secondary": "局部跳色涂抹"
+        }
+      ],
+      "search_text": "断勾干擦风格 细线/轻线稿 断续漏接速勾 明显笔触 干擦纸面磨白 高度几何化 速写概括变形 高饱和/鲜艳 局部跳色涂抹"
+    },
+    {
+      "style_special_word": "哑卡小头风格",
+      "aliases": [
+        "哑卡小头"
+      ],
+      "prompt_phrase": "哑卡小头风格，细线/轻线稿，细针式卡面描边，平滑/无纹理，哑面卡纸干刷斑，高度几何化，粗肢小头夸张人，低饱和/莫兰迪，哑彩低亮色块",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "细线/轻线稿",
+          "secondary": "细针式卡面描边"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "平滑/无纹理",
+          "secondary": "哑面卡纸干刷斑"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "高度几何化",
+          "secondary": "粗肢小头夸张人"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "低饱和/莫兰迪",
+          "secondary": "哑彩低亮色块"
+        }
+      ],
+      "search_text": "哑卡小头风格 细线/轻线稿 细针式卡面描边 平滑/无纹理 哑面卡纸干刷斑 高度几何化 粗肢小头夸张人 低饱和/莫兰迪 哑彩低亮色块"
+    },
+    {
+      "style_special_word": "妆铰闪唇风格",
+      "aliases": [
+        "妆铰闪唇"
+      ],
+      "prompt_phrase": "妆铰闪唇风格，无线稿，关节铰缝唇缘，材质模拟，亮唇硬塑妆面，轻度简化，铰接时装体，自然/真实色调，浓妆暗场彩点",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "无线稿",
+          "secondary": "关节铰缝唇缘"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "材质模拟",
+          "secondary": "亮唇硬塑妆面"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "轻度简化",
+          "secondary": "铰接时装体"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "自然/真实色调",
+          "secondary": "浓妆暗场彩点"
+        }
+      ],
+      "search_text": "妆铰闪唇风格 无线稿 关节铰缝唇缘 材质模拟 亮唇硬塑妆面 轻度简化 铰接时装体 自然/真实色调 浓妆暗场彩点"
+    },
+    {
+      "style_special_word": "柔胶腮雕风格",
+      "aliases": [
+        "柔胶腮雕"
+      ],
+      "prompt_phrase": "柔胶腮雕风格，无线稿，软雕圆缘，材质模拟，哑胶雕塑发束，轻度简化，圆腮嘟口公仔，荧光/霓虹/极端，奶油肤粉调",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "无线稿",
+          "secondary": "软雕圆缘"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "材质模拟",
+          "secondary": "哑胶雕塑发束"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "轻度简化",
+          "secondary": "圆腮嘟口公仔"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "荧光/霓虹/极端",
+          "secondary": "奶油肤粉调"
+        }
+      ],
+      "search_text": "柔胶腮雕风格 无线稿 软雕圆缘 材质模拟 哑胶雕塑发束 轻度简化 圆腮嘟口公仔 荧光/霓虹/极端 奶油肤粉调"
+    },
+    {
+      "style_special_word": "齿毛怪仔风格",
+      "aliases": [
+        "齿毛怪仔"
+      ],
+      "prompt_phrase": "齿毛怪仔风格，无线稿，毛束乱缘牙齿硬口，材质模拟，蓬毛针织光牙冲突，高度几何化，怪牙小玩偶体，自然/真实色调，暖调节日撞色",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "无线稿",
+          "secondary": "毛束乱缘牙齿硬口"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "材质模拟",
+          "secondary": "蓬毛针织光牙冲突"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "高度几何化",
+          "secondary": "怪牙小玩偶体"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "自然/真实色调",
+          "secondary": "暖调节日撞色"
+        }
+      ],
+      "search_text": "齿毛怪仔风格 无线稿 毛束乱缘牙齿硬口 材质模拟 蓬毛针织光牙冲突 高度几何化 怪牙小玩偶体 自然/真实色调 暖调节日撞色"
+    },
+    {
+      "style_special_word": "棱面低构风格",
+      "aliases": [
+        "棱面低构"
+      ],
+      "prompt_phrase": "棱面低构风格，无线稿，多边折面锐边，轻微肌理，数字硬面无纹，高度几何化，低模几何体块，荧光/霓虹/极端，棱面明暗分色",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "无线稿",
+          "secondary": "多边折面锐边"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "轻微肌理",
+          "secondary": "数字硬面无纹"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "高度几何化",
+          "secondary": "低模几何体块"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "荧光/霓虹/极端",
+          "secondary": "棱面明暗分色"
+        }
+      ],
+      "search_text": "棱面低构风格 无线稿 多边折面锐边 轻微肌理 数字硬面无纹 高度几何化 低模几何体块 荧光/霓虹/极端 棱面明暗分色"
+    },
+    {
+      "style_special_word": "粗压童彩风格",
+      "aliases": [
+        "粗压童彩"
+      ],
+      "prompt_phrase": "粗压童彩风格，细线/轻线稿，细压童线，明显笔触，彩棒干缘露白，高度几何化，夸简符号主体，高饱和/鲜艳，亮粉湖蓝直撞",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "细线/轻线稿",
+          "secondary": "细压童线"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "明显笔触",
+          "secondary": "彩棒干缘露白"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "高度几何化",
+          "secondary": "夸简符号主体"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "高饱和/鲜艳",
+          "secondary": "亮粉湖蓝直撞"
+        }
+      ],
+      "search_text": "粗压童彩风格 细线/轻线稿 细压童线 明显笔触 彩棒干缘露白 高度几何化 夸简符号主体 高饱和/鲜艳 亮粉湖蓝直撞"
+    },
+    {
+      "style_special_word": "暖块软线风格",
+      "aliases": [
+        "暖块软线"
+      ],
+      "prompt_phrase": "暖块软线风格，无线稿，红色软游线，明显笔触，水粉干扫粗纸，高度几何化，松弛拟人物件，高饱和/鲜艳，粉黄红暖块",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "无线稿",
+          "secondary": "红色软游线"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "明显笔触",
+          "secondary": "水粉干扫粗纸"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "高度几何化",
+          "secondary": "松弛拟人物件"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "高饱和/鲜艳",
+          "secondary": "粉黄红暖块"
+        }
+      ],
+      "search_text": "暖块软线风格 无线稿 红色软游线 明显笔触 水粉干扫粗纸 高度几何化 松弛拟人物件 高饱和/鲜艳 粉黄红暖块"
+    },
+    {
+      "style_special_word": "灰黄孔痕风格",
+      "aliases": [
+        "灰黄孔痕"
+      ],
+      "prompt_phrase": "灰黄孔痕风格，细线/轻线稿，简笔抖动暗线，像素/颗粒，半调孔点旧纸，高度几何化，黑灰极简影形，低饱和/莫兰迪，灰黄留白三值",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "细线/轻线稿",
+          "secondary": "简笔抖动暗线"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "像素/颗粒",
+          "secondary": "半调孔点旧纸"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "高度几何化",
+          "secondary": "黑灰极简影形"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "低饱和/莫兰迪",
+          "secondary": "灰黄留白三值"
+        }
+      ],
+      "search_text": "灰黄孔痕风格 细线/轻线稿 简笔抖动暗线 像素/颗粒 半调孔点旧纸 高度几何化 黑灰极简影形 低饱和/莫兰迪 灰黄留白三值"
+    },
+    {
+      "style_special_word": "亮孔彩网风格",
+      "aliases": [
+        "亮孔彩网"
+      ],
+      "prompt_phrase": "亮孔彩网风格，无线稿，色面相接无描边，像素/颗粒，彩孔网格罩印，高度几何化，几何化静物面，高饱和/鲜艳，明黄绿蓝亮撞",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "无线稿",
+          "secondary": "色面相接无描边"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "像素/颗粒",
+          "secondary": "彩孔网格罩印"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "高度几何化",
+          "secondary": "几何化静物面"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "高饱和/鲜艳",
+          "secondary": "明黄绿蓝亮撞"
+        }
+      ],
+      "search_text": "亮孔彩网风格 无线稿 色面相接无描边 像素/颗粒 彩孔网格罩印 高度几何化 几何化静物面 高饱和/鲜艳 明黄绿蓝亮撞"
+    },
+    {
+      "style_special_word": "针绒缝童风格",
+      "aliases": [
+        "针绒缝童"
+      ],
+      "prompt_phrase": "针绒缝童风格，无线稿，刺绣针脚缝边，材质模拟，棉布毛线纤维，轻度简化，圆润填充布偶，自然/真实色调，温暖布料综合色",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "无线稿",
+          "secondary": "刺绣针脚缝边"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "材质模拟",
+          "secondary": "棉布毛线纤维"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "轻度简化",
+          "secondary": "圆润填充布偶"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "自然/真实色调",
+          "secondary": "温暖布料综合色"
+        }
+      ],
+      "search_text": "针绒缝童风格 无线稿 刺绣针脚缝边 材质模拟 棉布毛线纤维 轻度简化 圆润填充布偶 自然/真实色调 温暖布料综合色"
+    },
+    {
+      "style_special_word": "细躁赤蓝风格",
+      "aliases": [
+        "细躁赤蓝"
+      ],
+      "prompt_phrase": "细躁赤蓝风格，无线稿，细躁回勾线，明显笔触，厚彩棒摩擦，轻度简化，稚拙拥挤群形，高饱和/鲜艳，赤黄蓝高撞",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "无线稿",
+          "secondary": "细躁回勾线"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "明显笔触",
+          "secondary": "厚彩棒摩擦"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "轻度简化",
+          "secondary": "稚拙拥挤群形"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "高饱和/鲜艳",
+          "secondary": "赤黄蓝高撞"
+        }
+      ],
+      "search_text": "细躁赤蓝风格 无线稿 细躁回勾线 明显笔触 厚彩棒摩擦 轻度简化 稚拙拥挤群形 高饱和/鲜艳 赤黄蓝高撞"
+    },
+    {
+      "style_special_word": "低彩层影风格",
+      "aliases": [
+        "低彩层影"
+      ],
+      "prompt_phrase": "低彩层影风格，无线稿，剪面锐边软脸缘，轻微肌理，低彩粉哑涂层，高度几何化，图层剥离半立体，低饱和/莫兰迪，秋灰低饱和",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "无线稿",
+          "secondary": "剪面锐边软脸缘"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "轻微肌理",
+          "secondary": "低彩粉哑涂层"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "高度几何化",
+          "secondary": "图层剥离半立体"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "低饱和/莫兰迪",
+          "secondary": "秋灰低饱和"
+        }
+      ],
+      "search_text": "低彩层影风格 无线稿 剪面锐边软脸缘 轻微肌理 低彩粉哑涂层 高度几何化 图层剥离半立体 低饱和/莫兰迪 秋灰低饱和"
+    },
+    {
+      "style_special_word": "棕圆亮笔风格",
+      "aliases": [
+        "棕圆亮笔"
+      ],
+      "prompt_phrase": "棕圆亮笔风格，粗黑线/强轮廓，深棕圆钝包边，轻微肌理，轻蜡纸面颗粒，高度几何化，圆扁可爱简形，高饱和/鲜艳，亮橙绿高明度",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "粗黑线/强轮廓",
+          "secondary": "深棕圆钝包边"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "轻微肌理",
+          "secondary": "轻蜡纸面颗粒"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "高度几何化",
+          "secondary": "圆扁可爱简形"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "高饱和/鲜艳",
+          "secondary": "亮橙绿高明度"
+        }
+      ],
+      "search_text": "棕圆亮笔风格 粗黑线/强轮廓 深棕圆钝包边 轻微肌理 轻蜡纸面颗粒 高度几何化 圆扁可爱简形 高饱和/鲜艳 亮橙绿高明度"
+    },
+    {
+      "style_special_word": "复排平刷风格",
+      "aliases": [
+        "复排平刷"
+      ],
+      "prompt_phrase": "复排平刷风格，细线/轻线稿，局部短排刻线，轻微肌理，复古印纸细粒，轻度简化，扁透视家具人，荧光/霓虹/极端，品红深蓝复撞",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "细线/轻线稿",
+          "secondary": "局部短排刻线"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "轻微肌理",
+          "secondary": "复古印纸细粒"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "轻度简化",
+          "secondary": "扁透视家具人"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "荧光/霓虹/极端",
+          "secondary": "品红深蓝复撞"
+        }
+      ],
+      "search_text": "复排平刷风格 细线/轻线稿 局部短排刻线 轻微肌理 复古印纸细粒 轻度简化 扁透视家具人 荧光/霓虹/极端 品红深蓝复撞"
+    },
+    {
+      "style_special_word": "霓雾粒梦风格",
+      "aliases": [
+        "霓雾粒梦"
+      ],
+      "prompt_phrase": "霓雾粒梦风格，无线稿，无廓色雾融边，像素/颗粒，粉彩粗粒闪点，高度几何化，朦胧色块人物，荧光/霓虹/极端，粉红黄橙霓彩",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "无线稿",
+          "secondary": "无廓色雾融边"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "像素/颗粒",
+          "secondary": "粉彩粗粒闪点"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "高度几何化",
+          "secondary": "朦胧色块人物"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "荧光/霓虹/极端",
+          "secondary": "粉红黄橙霓彩"
+        }
+      ],
+      "search_text": "霓雾粒梦风格 无线稿 无廓色雾融边 像素/颗粒 粉彩粗粒闪点 高度几何化 朦胧色块人物 荧光/霓虹/极端 粉红黄橙霓彩"
+    },
+    {
+      "style_special_word": "铅街干彩风格",
+      "aliases": [
+        "铅街干彩"
+      ],
+      "prompt_phrase": "铅街干彩风格，无线稿，色块成形弱边，明显笔触，彩铅干刮纸齿，高度几何化，无五官圆钝路人，高饱和/鲜艳，黄蓝红绿街彩",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "无线稿",
+          "secondary": "色块成形弱边"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "明显笔触",
+          "secondary": "彩铅干刮纸齿"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "高度几何化",
+          "secondary": "无五官圆钝路人"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "高饱和/鲜艳",
+          "secondary": "黄蓝红绿街彩"
+        }
+      ],
+      "search_text": "铅街干彩风格 无线稿 色块成形弱边 明显笔触 彩铅干刮纸齿 高度几何化 无五官圆钝路人 高饱和/鲜艳 黄蓝红绿街彩"
+    },
+    {
+      "style_special_word": "微本投影风格",
+      "aliases": [
+        "微本投影"
+      ],
+      "prompt_phrase": "微本投影风格，无线稿，纸板手绘墨边，材质模拟，剪纸真实投影，轻度简化，平面纸人纸树，低饱和/莫兰迪，暖粉蓝绿绘本",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "无线稿",
+          "secondary": "纸板手绘墨边"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "材质模拟",
+          "secondary": "剪纸真实投影"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "轻度简化",
+          "secondary": "平面纸人纸树"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "低饱和/莫兰迪",
+          "secondary": "暖粉蓝绿绘本"
+        }
+      ],
+      "search_text": "微本投影风格 无线稿 纸板手绘墨边 材质模拟 剪纸真实投影 轻度简化 平面纸人纸树 低饱和/莫兰迪 暖粉蓝绿绘本"
+    },
+    {
+      "style_special_word": "赛璐旧线风格",
+      "aliases": [
+        "赛璐旧线"
+      ],
+      "prompt_phrase": "赛璐旧线风格，中等线稿，流畅赛璐闭合线，平滑/无纹理，角色平滑背景粗刷，轻度简化，动画角色简构，低饱和/莫兰迪，旧动画平色",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "中等线稿",
+          "secondary": "流畅赛璐闭合线"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "平滑/无纹理",
+          "secondary": "角色平滑背景粗刷"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "轻度简化",
+          "secondary": "动画角色简构"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "低饱和/莫兰迪",
+          "secondary": "旧动画平色"
+        }
+      ],
+      "search_text": "赛璐旧线风格 中等线稿 流畅赛璐闭合线 平滑/无纹理 角色平滑背景粗刷 轻度简化 动画角色简构 低饱和/莫兰迪 旧动画平色"
+    },
+    {
+      "style_special_word": "刊墨糙描风格",
+      "aliases": [
+        "刊墨糙描"
+      ],
+      "prompt_phrase": "刊墨糙描风格，粗黑线/强轮廓，干裂刊墨硬线，轻微肌理，旧刊纸张印刷晕，写实/自然形态，怪比例市井人物，低饱和/莫兰迪，低饱和旧印调",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "粗黑线/强轮廓",
+          "secondary": "干裂刊墨硬线"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "轻微肌理",
+          "secondary": "旧刊纸张印刷晕"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "写实/自然形态",
+          "secondary": "怪比例市井人物"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "低饱和/莫兰迪",
+          "secondary": "低饱和旧印调"
+        }
+      ],
+      "search_text": "刊墨糙描风格 粗黑线/强轮廓 干裂刊墨硬线 轻微肌理 旧刊纸张印刷晕 写实/自然形态 怪比例市井人物 低饱和/莫兰迪 低饱和旧印调"
+    },
+    {
+      "style_special_word": "昭绘旧童风格",
+      "aliases": [
+        "昭绘旧童"
+      ],
+      "prompt_phrase": "昭绘旧童风格，中等线稿，童书清墨圆边，轻微肌理，旧书纸粒印感，轻度简化，扁圆童话角色，低饱和/莫兰迪，昭和红蓝黄绿",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "中等线稿",
+          "secondary": "童书清墨圆边"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "轻微肌理",
+          "secondary": "旧书纸粒印感"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "轻度简化",
+          "secondary": "扁圆童话角色"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "低饱和/莫兰迪",
+          "secondary": "昭和红蓝黄绿"
+        }
+      ],
+      "search_text": "昭绘旧童风格 中等线稿 童书清墨圆边 轻微肌理 旧书纸粒印感 轻度简化 扁圆童话角色 低饱和/莫兰迪 昭和红蓝黄绿"
+    },
+    {
+      "style_special_word": "晾物奇景风格",
+      "aliases": [
+        "晾物奇景"
+      ],
+      "prompt_phrase": "晾物奇景风格，无线稿，真实晾绳悬挂边，材质模拟，布褶木夹沙地，高度几何化，日用品悬拼物象，自然/真实色调，户外摄影真实色",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "无线稿",
+          "secondary": "真实晾绳悬挂边"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "材质模拟",
+          "secondary": "布褶木夹沙地"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "高度几何化",
+          "secondary": "日用品悬拼物象"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "自然/真实色调",
+          "secondary": "户外摄影真实色"
+        }
+      ],
+      "search_text": "晾物奇景风格 无线稿 真实晾绳悬挂边 材质模拟 布褶木夹沙地 高度几何化 日用品悬拼物象 自然/真实色调 户外摄影真实色"
+    },
+    {
+      "style_special_word": "果雾软块风格",
+      "aliases": [
+        "果雾软块"
+      ],
+      "prompt_phrase": "果雾软块风格，无线稿，软毛色块边界，像素/颗粒，果粉雾粒噪点，高度几何化，圆钝几何剪影，高饱和/鲜艳，果色明暗强撞",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "无线稿",
+          "secondary": "软毛色块边界"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "像素/颗粒",
+          "secondary": "果粉雾粒噪点"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "高度几何化",
+          "secondary": "圆钝几何剪影"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "高饱和/鲜艳",
+          "secondary": "果色明暗强撞"
+        }
+      ],
+      "search_text": "果雾软块风格 无线稿 软毛色块边界 像素/颗粒 果粉雾粒噪点 高度几何化 圆钝几何剪影 高饱和/鲜艳 果色明暗强撞"
+    },
+    {
+      "style_special_word": "朗描水块风格",
+      "aliases": [
+        "朗描水块"
+      ],
+      "prompt_phrase": "朗描水块风格，无线稿，朗阔圆角粗描，明显笔触，水渍薄彩块，轻度简化，圆简家庭人物，高饱和/鲜艳，红蓝节庆明块",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "无线稿",
+          "secondary": "朗阔圆角粗描"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "明显笔触",
+          "secondary": "水渍薄彩块"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "轻度简化",
+          "secondary": "圆简家庭人物"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "高饱和/鲜艳",
+          "secondary": "红蓝节庆明块"
+        }
+      ],
+      "search_text": "朗描水块风格 无线稿 朗阔圆角粗描 明显笔触 水渍薄彩块 轻度简化 圆简家庭人物 高饱和/鲜艳 红蓝节庆明块"
+    },
+    {
+      "style_special_word": "棉刺短绒风格",
+      "aliases": [
+        "棉刺短绒"
+      ],
+      "prompt_phrase": "棉刺短绒风格，无线稿，刺绣五官绒边，材质模拟，短绒针织立体绣，高度几何化，圆润潮流毛偶，自然/真实色调，紫灰暖粉腮",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "无线稿",
+          "secondary": "刺绣五官绒边"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "材质模拟",
+          "secondary": "短绒针织立体绣"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "高度几何化",
+          "secondary": "圆润潮流毛偶"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "自然/真实色调",
+          "secondary": "紫灰暖粉腮"
+        }
+      ],
+      "search_text": "棉刺短绒风格 无线稿 刺绣五官绒边 材质模拟 短绒针织立体绣 高度几何化 圆润潮流毛偶 自然/真实色调 紫灰暖粉腮"
+    },
+    {
+      "style_special_word": "植绒微裳风格",
+      "aliases": [
+        "植绒微裳"
+      ],
+      "prompt_phrase": "植绒微裳风格，无线稿，织缝衣褶边，材质模拟，哑面植绒毛糙，高度几何化，配饰夸张小偶，自然/真实色调，奶黄橘紫蓝景",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "无线稿",
+          "secondary": "织缝衣褶边"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "材质模拟",
+          "secondary": "哑面植绒毛糙"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "高度几何化",
+          "secondary": "配饰夸张小偶"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "自然/真实色调",
+          "secondary": "奶黄橘紫蓝景"
+        }
+      ],
+      "search_text": "植绒微裳风格 无线稿 织缝衣褶边 材质模拟 哑面植绒毛糙 高度几何化 配饰夸张小偶 自然/真实色调 奶黄橘紫蓝景"
+    },
+    {
+      "style_special_word": "灰铅乱毛风格",
+      "aliases": [
+        "灰铅乱毛"
+      ],
+      "prompt_phrase": "灰铅乱毛风格，细线/轻线稿，灰铅发散毛线，轻微肌理，铅粉速写纸粒，写实/自然形态，蓬松宠物头像，低饱和/莫兰迪，灰阶赭点",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "细线/轻线稿",
+          "secondary": "灰铅发散毛线"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "轻微肌理",
+          "secondary": "铅粉速写纸粒"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "写实/自然形态",
+          "secondary": "蓬松宠物头像"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "低饱和/莫兰迪",
+          "secondary": "灰阶赭点"
+        }
+      ],
+      "search_text": "灰铅乱毛风格 细线/轻线稿 灰铅发散毛线 轻微肌理 铅粉速写纸粒 写实/自然形态 蓬松宠物头像 低饱和/莫兰迪 灰阶赭点"
+    },
+    {
+      "style_special_word": "淡水潦痕风格",
+      "aliases": [
+        "淡水潦痕"
+      ],
+      "prompt_phrase": "淡水潦痕风格，无线稿，灰褐潦草枝笔，明显笔触，水彩回渗斑痕，轻度简化，自然物概括色块，低饱和/莫兰迪，淡蓝暖白清彩",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "无线稿",
+          "secondary": "灰褐潦草枝笔"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "明显笔触",
+          "secondary": "水彩回渗斑痕"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "轻度简化",
+          "secondary": "自然物概括色块"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "低饱和/莫兰迪",
+          "secondary": "淡蓝暖白清彩"
+        }
+      ],
+      "search_text": "淡水潦痕风格 无线稿 灰褐潦草枝笔 明显笔触 水彩回渗斑痕 轻度简化 自然物概括色块 低饱和/莫兰迪 淡蓝暖白清彩"
+    },
+    {
+      "style_special_word": "散墨淡日风格",
+      "aliases": [
+        "散墨淡日"
+      ],
+      "prompt_phrase": "散墨淡日风格，中等线稿，抖散黑墨肢体线，平滑/无纹理，淡彩薄铺纸糙，高度几何化，夸张生活动作体，低饱和/莫兰迪，橙蓝绿局部明彩",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "中等线稿",
+          "secondary": "抖散黑墨肢体线"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "平滑/无纹理",
+          "secondary": "淡彩薄铺纸糙"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "高度几何化",
+          "secondary": "夸张生活动作体"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "低饱和/莫兰迪",
+          "secondary": "橙蓝绿局部明彩"
+        }
+      ],
+      "search_text": "散墨淡日风格 中等线稿 抖散黑墨肢体线 平滑/无纹理 淡彩薄铺纸糙 高度几何化 夸张生活动作体 低饱和/莫兰迪 橙蓝绿局部明彩"
+    },
+    {
+      "style_special_word": "亮撕拼景风格",
+      "aliases": [
+        "亮撕拼景"
+      ],
+      "prompt_phrase": "亮撕拼景风格，无线稿，手撕毛糙边，材质模拟，彩纸颜料纤维，高度几何化，纸片家具人物，高饱和/鲜艳，亮黄红蓝绿强撞",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "无线稿",
+          "secondary": "手撕毛糙边"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "材质模拟",
+          "secondary": "彩纸颜料纤维"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "高度几何化",
+          "secondary": "纸片家具人物"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "高饱和/鲜艳",
+          "secondary": "亮黄红蓝绿强撞"
+        }
+      ],
+      "search_text": "亮撕拼景风格 无线稿 手撕毛糙边 材质模拟 彩纸颜料纤维 高度几何化 纸片家具人物 高饱和/鲜艳 亮黄红蓝绿强撞"
+    },
+    {
+      "style_special_word": "橙颊厚涂风格",
+      "aliases": [
+        "橙颊厚涂"
+      ],
+      "prompt_phrase": "橙颊厚涂风格，粗黑线/强轮廓，厚涂抖缘，明显笔触，膏彩厚层纸噪，高度几何化，橙颊圆脸童话体，高饱和/鲜艳，花园鲜艳密色",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "粗黑线/强轮廓",
+          "secondary": "厚涂抖缘"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "明显笔触",
+          "secondary": "膏彩厚层纸噪"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "高度几何化",
+          "secondary": "橙颊圆脸童话体"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "高饱和/鲜艳",
+          "secondary": "花园鲜艳密色"
+        }
+      ],
+      "search_text": "橙颊厚涂风格 粗黑线/强轮廓 厚涂抖缘 明显笔触 膏彩厚层纸噪 高度几何化 橙颊圆脸童话体 高饱和/鲜艳 花园鲜艳密色"
+    },
+    {
+      "style_special_word": "深边圆画风格",
+      "aliases": [
+        "深边圆画"
+      ],
+      "prompt_phrase": "深边圆画风格，粗黑线/强轮廓，深色压痕外廓，明显笔触，砂粒浓彩涂层，高度几何化，几何圆钝小人，低饱和/莫兰迪，灰绿粉肤柔撞",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "粗黑线/强轮廓",
+          "secondary": "深色压痕外廓"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "明显笔触",
+          "secondary": "砂粒浓彩涂层"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "高度几何化",
+          "secondary": "几何圆钝小人"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "低饱和/莫兰迪",
+          "secondary": "灰绿粉肤柔撞"
+        }
+      ],
+      "search_text": "深边圆画风格 粗黑线/强轮廓 深色压痕外廓 明显笔触 砂粒浓彩涂层 高度几何化 几何圆钝小人 低饱和/莫兰迪 灰绿粉肤柔撞"
+    },
+    {
+      "style_special_word": "折盒方构风格",
+      "aliases": [
+        "折盒方构"
+      ],
+      "prompt_phrase": "折盒方构风格，无线稿，纸板直角折痕，材质模拟，哑印折盒贴图，高度几何化，矩形盒体方构，自然/真实色调，浅彩纸板实景色",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "无线稿",
+          "secondary": "纸板直角折痕"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "材质模拟",
+          "secondary": "哑印折盒贴图"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "高度几何化",
+          "secondary": "矩形盒体方构"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "自然/真实色调",
+          "secondary": "浅彩纸板实景色"
+        }
+      ],
+      "search_text": "折盒方构风格 无线稿 纸板直角折痕 材质模拟 哑印折盒贴图 高度几何化 矩形盒体方构 自然/真实色调 浅彩纸板实景色"
+    },
+    {
+      "style_special_word": "油棒餐涂风格",
+      "aliases": [
+        "油棒餐涂"
+      ],
+      "prompt_phrase": "油棒餐涂风格，无线稿，油棒粗游外扩线，明显笔触，油棒厚擦白缝，写实/自然形态，桌物高度几何化，高饱和/鲜艳，红黄蓝餐桌高彩",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "无线稿",
+          "secondary": "油棒粗游外扩线"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "明显笔触",
+          "secondary": "油棒厚擦白缝"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "写实/自然形态",
+          "secondary": "桌物高度几何化"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "高饱和/鲜艳",
+          "secondary": "红黄蓝餐桌高彩"
+        }
+      ],
+      "search_text": "油棒餐涂风格 无线稿 油棒粗游外扩线 明显笔触 油棒厚擦白缝 写实/自然形态 桌物高度几何化 高饱和/鲜艳 红黄蓝餐桌高彩"
+    },
+    {
+      "style_special_word": "木柱刻彩风格",
+      "aliases": [
+        "木柱刻彩"
+      ],
+      "prompt_phrase": "木柱刻彩风格，无线稿，刻刀槽边脸线，材质模拟，木纹斑驳颜料，高度几何化，圆柱木偶小人，自然/真实色调，蓝白格手上色",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "无线稿",
+          "secondary": "刻刀槽边脸线"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "材质模拟",
+          "secondary": "木纹斑驳颜料"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "高度几何化",
+          "secondary": "圆柱木偶小人"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "自然/真实色调",
+          "secondary": "蓝白格手上色"
+        }
+      ],
+      "search_text": "木柱刻彩风格 无线稿 刻刀槽边脸线 材质模拟 木纹斑驳颜料 高度几何化 圆柱木偶小人 自然/真实色调 蓝白格手上色"
+    },
+    {
+      "style_special_word": "港桌微景风格",
+      "aliases": [
+        "港桌微景"
+      ],
+      "prompt_phrase": "港桌微景风格，无线稿，玻璃折光器物边，材质模拟，木蕾丝玻璃金属，写实/自然形态，复古小物陈列，自然/真实色调，港式木金红蓝",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "无线稿",
+          "secondary": "玻璃折光器物边"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "材质模拟",
+          "secondary": "木蕾丝玻璃金属"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "写实/自然形态",
+          "secondary": "复古小物陈列"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "自然/真实色调",
+          "secondary": "港式木金红蓝"
+        }
+      ],
+      "search_text": "港桌微景风格 无线稿 玻璃折光器物边 材质模拟 木蕾丝玻璃金属 写实/自然形态 复古小物陈列 自然/真实色调 港式木金红蓝"
+    },
+    {
+      "style_special_word": "捏土圆剧风格",
+      "aliases": [
+        "捏土圆剧"
+      ],
+      "prompt_phrase": "捏土圆剧风格，无线稿，黏土软圆边，材质模拟，手捏压痕泥面，高度几何化，圆钝笨拙玩具，高饱和/鲜艳，复古糖果高彩",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "无线稿",
+          "secondary": "黏土软圆边"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "材质模拟",
+          "secondary": "手捏压痕泥面"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "高度几何化",
+          "secondary": "圆钝笨拙玩具"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "高饱和/鲜艳",
+          "secondary": "复古糖果高彩"
+        }
+      ],
+      "search_text": "捏土圆剧风格 无线稿 黏土软圆边 材质模拟 手捏压痕泥面 高度几何化 圆钝笨拙玩具 高饱和/鲜艳 复古糖果高彩"
+    },
+    {
+      "style_special_word": "岛森简塑风格",
+      "aliases": [
+        "岛森简塑"
+      ],
+      "prompt_phrase": "岛森简塑风格，无线稿，低模游戏洁边，材质模拟，磨砂塑料渲染，高度几何化，短身大头圆角，低饱和/莫兰迪，岛屿糖果自然色",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "无线稿",
+          "secondary": "低模游戏洁边"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "材质模拟",
+          "secondary": "磨砂塑料渲染"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "高度几何化",
+          "secondary": "短身大头圆角"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "低饱和/莫兰迪",
+          "secondary": "岛屿糖果自然色"
+        }
+      ],
+      "search_text": "岛森简塑风格 无线稿 低模游戏洁边 材质模拟 磨砂塑料渲染 高度几何化 短身大头圆角 低饱和/莫兰迪 岛屿糖果自然色"
+    },
+    {
+      "style_special_word": "符章童绘风格",
+      "aliases": [
+        "符章童绘"
+      ],
+      "prompt_phrase": "符章童绘风格，粗黑线/强轮廓，符号式粗描边，明显笔触，干粒色痕留白，高度几何化，贴纸章幼态简形，高饱和/鲜艳，原色小块并置",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "粗黑线/强轮廓",
+          "secondary": "符号式粗描边"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "明显笔触",
+          "secondary": "干粒色痕留白"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "高度几何化",
+          "secondary": "贴纸章幼态简形"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "高饱和/鲜艳",
+          "secondary": "原色小块并置"
+        }
+      ],
+      "search_text": "符章童绘风格 粗黑线/强轮廓 符号式粗描边 明显笔触 干粒色痕留白 高度几何化 贴纸章幼态简形 高饱和/鲜艳 原色小块并置"
+    },
+    {
+      "style_special_word": "霓位矩阵风格",
+      "aliases": [
+        "霓位矩阵"
+      ],
+      "prompt_phrase": "霓位矩阵风格，粗黑线/强轮廓，一位方格硬边，像素/颗粒，深屏发光点阵，高度几何化，极简一位图标，荧光/霓虹/极端，霓粉电蓝荧绿",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "粗黑线/强轮廓",
+          "secondary": "一位方格硬边"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "像素/颗粒",
+          "secondary": "深屏发光点阵"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "高度几何化",
+          "secondary": "极简一位图标"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "荧光/霓虹/极端",
+          "secondary": "霓粉电蓝荧绿"
+        }
+      ],
+      "search_text": "霓位矩阵风格 粗黑线/强轮廓 一位方格硬边 像素/颗粒 深屏发光点阵 高度几何化 极简一位图标 荧光/霓虹/极端 霓粉电蓝荧绿"
+    },
+    {
+      "style_special_word": "怪彩扭像风格",
+      "aliases": [
+        "怪彩扭像"
+      ],
+      "prompt_phrase": "怪彩扭像风格，中等线稿，扭曲夸描外形边，明显笔触，厚彩堆痕脏混，高度几何化，五官错位怪脸，低饱和/莫兰迪，非自然鲜撞色",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "中等线稿",
+          "secondary": "扭曲夸描外形边"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "明显笔触",
+          "secondary": "厚彩堆痕脏混"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "高度几何化",
+          "secondary": "五官错位怪脸"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "低饱和/莫兰迪",
+          "secondary": "非自然鲜撞色"
+        }
+      ],
+      "search_text": "怪彩扭像风格 中等线稿 扭曲夸描外形边 明显笔触 厚彩堆痕脏混 高度几何化 五官错位怪脸 低饱和/莫兰迪 非自然鲜撞色"
+    },
+    {
+      "style_special_word": "亮芯硬铺风格",
+      "aliases": [
+        "亮芯硬铺"
+      ],
+      "prompt_phrase": "亮芯硬铺风格，无线稿，硬切色块边，像素/颗粒，色芯密排纸粒，高度几何化，扁平几何人物，高饱和/鲜艳，青黄蓝橙直撞",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "无线稿",
+          "secondary": "硬切色块边"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "像素/颗粒",
+          "secondary": "色芯密排纸粒"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "高度几何化",
+          "secondary": "扁平几何人物"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "高饱和/鲜艳",
+          "secondary": "青黄蓝橙直撞"
+        }
+      ],
+      "search_text": "亮芯硬铺风格 无线稿 硬切色块边 像素/颗粒 色芯密排纸粒 高度几何化 扁平几何人物 高饱和/鲜艳 青黄蓝橙直撞"
+    },
+    {
+      "style_special_word": "白晕融粉风格",
+      "aliases": [
+        "白晕融粉"
+      ],
+      "prompt_phrase": "白晕融粉风格，无线稿，白光吞边，明显笔触，湿粉融色雪点，轻度简化，无脸柔影人宠，低饱和/莫兰迪，淡蓝粉绿低对比",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "无线稿",
+          "secondary": "白光吞边"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "明显笔触",
+          "secondary": "湿粉融色雪点"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "轻度简化",
+          "secondary": "无脸柔影人宠"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "低饱和/莫兰迪",
+          "secondary": "淡蓝粉绿低对比"
+        }
+      ],
+      "search_text": "白晕融粉风格 无线稿 白光吞边 明显笔触 湿粉融色雪点 轻度简化 无脸柔影人宠 低饱和/莫兰迪 淡蓝粉绿低对比"
+    },
+    {
+      "style_special_word": "嵌瞳泥景风格",
+      "aliases": [
+        "嵌瞳泥景"
+      ],
+      "prompt_phrase": "嵌瞳泥景风格，无线稿，发丝泥条分缝，材质模拟，手塑泥面嵌瞳，轻度简化，巨眼小鼻长身，自然/真实色调，雀斑腮粉实拍色",
+      "techniques": [
+        {
+          "dimension": "line",
+          "dimension_zh": "线条技法",
+          "primary": "无线稿",
+          "secondary": "发丝泥条分缝"
+        },
+        {
+          "dimension": "brush_material",
+          "dimension_zh": "质感/材质",
+          "primary": "材质模拟",
+          "secondary": "手塑泥面嵌瞳"
+        },
+        {
+          "dimension": "form",
+          "dimension_zh": "形体技法",
+          "primary": "轻度简化",
+          "secondary": "巨眼小鼻长身"
+        },
+        {
+          "dimension": "color",
+          "dimension_zh": "色彩技法",
+          "primary": "自然/真实色调",
+          "secondary": "雀斑腮粉实拍色"
+        }
+      ],
+      "search_text": "嵌瞳泥景风格 无线稿 发丝泥条分缝 材质模拟 手塑泥面嵌瞳 轻度简化 巨眼小鼻长身 自然/真实色调 雀斑腮粉实拍色"
+    }
+  ],
+  "indexes": {
+    "by_style_special_word": {
+      "瓷眸凝釉风格": "瓷眸凝釉风格",
+      "裁片叠影风格": "裁片叠影风格",
+      "冷格平刷风格": "冷格平刷风格",
+      "古机齿块风格": "古机齿块风格",
+      "断勾干擦风格": "断勾干擦风格",
+      "哑卡小头风格": "哑卡小头风格",
+      "妆铰闪唇风格": "妆铰闪唇风格",
+      "柔胶腮雕风格": "柔胶腮雕风格",
+      "齿毛怪仔风格": "齿毛怪仔风格",
+      "棱面低构风格": "棱面低构风格",
+      "粗压童彩风格": "粗压童彩风格",
+      "暖块软线风格": "暖块软线风格",
+      "灰黄孔痕风格": "灰黄孔痕风格",
+      "亮孔彩网风格": "亮孔彩网风格",
+      "针绒缝童风格": "针绒缝童风格",
+      "细躁赤蓝风格": "细躁赤蓝风格",
+      "低彩层影风格": "低彩层影风格",
+      "棕圆亮笔风格": "棕圆亮笔风格",
+      "复排平刷风格": "复排平刷风格",
+      "霓雾粒梦风格": "霓雾粒梦风格",
+      "铅街干彩风格": "铅街干彩风格",
+      "微本投影风格": "微本投影风格",
+      "赛璐旧线风格": "赛璐旧线风格",
+      "刊墨糙描风格": "刊墨糙描风格",
+      "昭绘旧童风格": "昭绘旧童风格",
+      "晾物奇景风格": "晾物奇景风格",
+      "果雾软块风格": "果雾软块风格",
+      "朗描水块风格": "朗描水块风格",
+      "棉刺短绒风格": "棉刺短绒风格",
+      "植绒微裳风格": "植绒微裳风格",
+      "灰铅乱毛风格": "灰铅乱毛风格",
+      "淡水潦痕风格": "淡水潦痕风格",
+      "散墨淡日风格": "散墨淡日风格",
+      "亮撕拼景风格": "亮撕拼景风格",
+      "橙颊厚涂风格": "橙颊厚涂风格",
+      "深边圆画风格": "深边圆画风格",
+      "折盒方构风格": "折盒方构风格",
+      "油棒餐涂风格": "油棒餐涂风格",
+      "木柱刻彩风格": "木柱刻彩风格",
+      "港桌微景风格": "港桌微景风格",
+      "捏土圆剧风格": "捏土圆剧风格",
+      "岛森简塑风格": "岛森简塑风格",
+      "符章童绘风格": "符章童绘风格",
+      "霓位矩阵风格": "霓位矩阵风格",
+      "怪彩扭像风格": "怪彩扭像风格",
+      "亮芯硬铺风格": "亮芯硬铺风格",
+      "白晕融粉风格": "白晕融粉风格",
+      "嵌瞳泥景风格": "嵌瞳泥景风格"
+    },
+    "by_primary_technique": {
+      "无线稿": [
+        "瓷眸凝釉风格",
+        "裁片叠影风格",
+        "古机齿块风格",
+        "妆铰闪唇风格",
+        "柔胶腮雕风格",
+        "齿毛怪仔风格",
+        "棱面低构风格",
+        "暖块软线风格",
+        "亮孔彩网风格",
+        "针绒缝童风格",
+        "细躁赤蓝风格",
+        "低彩层影风格",
+        "霓雾粒梦风格",
+        "铅街干彩风格",
+        "微本投影风格",
+        "晾物奇景风格",
+        "果雾软块风格",
+        "朗描水块风格",
+        "棉刺短绒风格",
+        "植绒微裳风格",
+        "淡水潦痕风格",
+        "亮撕拼景风格",
+        "折盒方构风格",
+        "油棒餐涂风格",
+        "木柱刻彩风格",
+        "港桌微景风格",
+        "捏土圆剧风格",
+        "岛森简塑风格",
+        "亮芯硬铺风格",
+        "白晕融粉风格",
+        "嵌瞳泥景风格"
+      ],
+      "材质模拟": [
+        "瓷眸凝釉风格",
+        "裁片叠影风格",
+        "妆铰闪唇风格",
+        "柔胶腮雕风格",
+        "齿毛怪仔风格",
+        "针绒缝童风格",
+        "微本投影风格",
+        "晾物奇景风格",
+        "棉刺短绒风格",
+        "植绒微裳风格",
+        "亮撕拼景风格",
+        "折盒方构风格",
+        "木柱刻彩风格",
+        "港桌微景风格",
+        "捏土圆剧风格",
+        "岛森简塑风格",
+        "嵌瞳泥景风格"
+      ],
+      "轻度简化": [
+        "瓷眸凝釉风格",
+        "古机齿块风格",
+        "妆铰闪唇风格",
+        "柔胶腮雕风格",
+        "针绒缝童风格",
+        "细躁赤蓝风格",
+        "复排平刷风格",
+        "微本投影风格",
+        "赛璐旧线风格",
+        "昭绘旧童风格",
+        "朗描水块风格",
+        "淡水潦痕风格",
+        "白晕融粉风格",
+        "嵌瞳泥景风格"
+      ],
+      "自然/真实色调": [
+        "瓷眸凝釉风格",
+        "妆铰闪唇风格",
+        "齿毛怪仔风格",
+        "针绒缝童风格",
+        "晾物奇景风格",
+        "棉刺短绒风格",
+        "植绒微裳风格",
+        "折盒方构风格",
+        "木柱刻彩风格",
+        "港桌微景风格",
+        "嵌瞳泥景风格"
+      ],
+      "高度几何化": [
+        "裁片叠影风格",
+        "冷格平刷风格",
+        "断勾干擦风格",
+        "哑卡小头风格",
+        "齿毛怪仔风格",
+        "棱面低构风格",
+        "粗压童彩风格",
+        "暖块软线风格",
+        "灰黄孔痕风格",
+        "亮孔彩网风格",
+        "低彩层影风格",
+        "棕圆亮笔风格",
+        "霓雾粒梦风格",
+        "铅街干彩风格",
+        "晾物奇景风格",
+        "果雾软块风格",
+        "棉刺短绒风格",
+        "植绒微裳风格",
+        "散墨淡日风格",
+        "亮撕拼景风格",
+        "橙颊厚涂风格",
+        "深边圆画风格",
+        "折盒方构风格",
+        "木柱刻彩风格",
+        "捏土圆剧风格",
+        "岛森简塑风格",
+        "符章童绘风格",
+        "霓位矩阵风格",
+        "怪彩扭像风格",
+        "亮芯硬铺风格"
+      ],
+      "低饱和/莫兰迪": [
+        "裁片叠影风格",
+        "冷格平刷风格",
+        "古机齿块风格",
+        "哑卡小头风格",
+        "灰黄孔痕风格",
+        "低彩层影风格",
+        "微本投影风格",
+        "赛璐旧线风格",
+        "刊墨糙描风格",
+        "昭绘旧童风格",
+        "灰铅乱毛风格",
+        "淡水潦痕风格",
+        "散墨淡日风格",
+        "深边圆画风格",
+        "岛森简塑风格",
+        "怪彩扭像风格",
+        "白晕融粉风格"
+      ],
+      "中等线稿": [
+        "冷格平刷风格",
+        "赛璐旧线风格",
+        "昭绘旧童风格",
+        "散墨淡日风格",
+        "怪彩扭像风格"
+      ],
+      "平滑/无纹理": [
+        "冷格平刷风格",
+        "哑卡小头风格",
+        "赛璐旧线风格",
+        "散墨淡日风格"
+      ],
+      "像素/颗粒": [
+        "古机齿块风格",
+        "灰黄孔痕风格",
+        "亮孔彩网风格",
+        "霓雾粒梦风格",
+        "果雾软块风格",
+        "霓位矩阵风格",
+        "亮芯硬铺风格"
+      ],
+      "细线/轻线稿": [
+        "断勾干擦风格",
+        "哑卡小头风格",
+        "粗压童彩风格",
+        "灰黄孔痕风格",
+        "复排平刷风格",
+        "灰铅乱毛风格"
+      ],
+      "明显笔触": [
+        "断勾干擦风格",
+        "粗压童彩风格",
+        "暖块软线风格",
+        "细躁赤蓝风格",
+        "铅街干彩风格",
+        "朗描水块风格",
+        "淡水潦痕风格",
+        "橙颊厚涂风格",
+        "深边圆画风格",
+        "油棒餐涂风格",
+        "符章童绘风格",
+        "怪彩扭像风格",
+        "白晕融粉风格"
+      ],
+      "高饱和/鲜艳": [
+        "断勾干擦风格",
+        "粗压童彩风格",
+        "暖块软线风格",
+        "亮孔彩网风格",
+        "细躁赤蓝风格",
+        "棕圆亮笔风格",
+        "铅街干彩风格",
+        "果雾软块风格",
+        "朗描水块风格",
+        "亮撕拼景风格",
+        "橙颊厚涂风格",
+        "油棒餐涂风格",
+        "捏土圆剧风格",
+        "符章童绘风格",
+        "亮芯硬铺风格"
+      ],
+      "荧光/霓虹/极端": [
+        "柔胶腮雕风格",
+        "棱面低构风格",
+        "复排平刷风格",
+        "霓雾粒梦风格",
+        "霓位矩阵风格"
+      ],
+      "轻微肌理": [
+        "棱面低构风格",
+        "低彩层影风格",
+        "棕圆亮笔风格",
+        "复排平刷风格",
+        "刊墨糙描风格",
+        "昭绘旧童风格",
+        "灰铅乱毛风格"
+      ],
+      "粗黑线/强轮廓": [
+        "棕圆亮笔风格",
+        "刊墨糙描风格",
+        "橙颊厚涂风格",
+        "深边圆画风格",
+        "符章童绘风格",
+        "霓位矩阵风格"
+      ],
+      "写实/自然形态": [
+        "刊墨糙描风格",
+        "灰铅乱毛风格",
+        "油棒餐涂风格",
+        "港桌微景风格"
+      ]
+    },
+    "by_secondary_technique": {
+      "瓷面高光边": [
+        "瓷眸凝釉风格"
+      ],
+      "冷瓷瞳釉": [
+        "瓷眸凝釉风格"
+      ],
+      "巨瞳圆脸瓷偶": [
+        "瓷眸凝釉风格"
+      ],
+      "自然肤亮釉光": [
+        "瓷眸凝釉风格"
+      ],
+      "裁片硬切边": [
+        "裁片叠影风格"
+      ],
+      "纤维裁片叠影": [
+        "裁片叠影风格"
+      ],
+      "扁平片层拼形": [
+        "裁片叠影风格"
+      ],
+      "灰蓝棕红低彩": [
+        "裁片叠影风格"
+      ],
+      "冷硬闭合墨边": [
+        "冷格平刷风格"
+      ],
+      "无刷痕数字平刷": [
+        "冷格平刷风格"
+      ],
+      "二维简块人物": [
+        "冷格平刷风格"
+      ],
+      "低饱和冷色面": [
+        "冷格平刷风格"
+      ],
+      "阶梯锯齿硬边": [
+        "古机齿块风格"
+      ],
+      "低清方块显像": [
+        "古机齿块风格"
+      ],
+      "块拼怪比例": [
+        "古机齿块风格"
+      ],
+      "旧机调色盘": [
+        "古机齿块风格"
+      ],
+      "断续漏接速勾": [
+        "断勾干擦风格"
+      ],
+      "干擦纸面磨白": [
+        "断勾干擦风格"
+      ],
+      "速写概括变形": [
+        "断勾干擦风格"
+      ],
+      "局部跳色涂抹": [
+        "断勾干擦风格"
+      ],
+      "细针式卡面描边": [
+        "哑卡小头风格"
+      ],
+      "哑面卡纸干刷斑": [
+        "哑卡小头风格"
+      ],
+      "粗肢小头夸张人": [
+        "哑卡小头风格"
+      ],
+      "哑彩低亮色块": [
+        "哑卡小头风格"
+      ],
+      "关节铰缝唇缘": [
+        "妆铰闪唇风格"
+      ],
+      "亮唇硬塑妆面": [
+        "妆铰闪唇风格"
+      ],
+      "铰接时装体": [
+        "妆铰闪唇风格"
+      ],
+      "浓妆暗场彩点": [
+        "妆铰闪唇风格"
+      ],
+      "软雕圆缘": [
+        "柔胶腮雕风格"
+      ],
+      "哑胶雕塑发束": [
+        "柔胶腮雕风格"
+      ],
+      "圆腮嘟口公仔": [
+        "柔胶腮雕风格"
+      ],
+      "奶油肤粉调": [
+        "柔胶腮雕风格"
+      ],
+      "毛束乱缘牙齿硬口": [
+        "齿毛怪仔风格"
+      ],
+      "蓬毛针织光牙冲突": [
+        "齿毛怪仔风格"
+      ],
+      "怪牙小玩偶体": [
+        "齿毛怪仔风格"
+      ],
+      "暖调节日撞色": [
+        "齿毛怪仔风格"
+      ],
+      "多边折面锐边": [
+        "棱面低构风格"
+      ],
+      "数字硬面无纹": [
+        "棱面低构风格"
+      ],
+      "低模几何体块": [
+        "棱面低构风格"
+      ],
+      "棱面明暗分色": [
+        "棱面低构风格"
+      ],
+      "细压童线": [
+        "粗压童彩风格"
+      ],
+      "彩棒干缘露白": [
+        "粗压童彩风格"
+      ],
+      "夸简符号主体": [
+        "粗压童彩风格"
+      ],
+      "亮粉湖蓝直撞": [
+        "粗压童彩风格"
+      ],
+      "红色软游线": [
+        "暖块软线风格"
+      ],
+      "水粉干扫粗纸": [
+        "暖块软线风格"
+      ],
+      "松弛拟人物件": [
+        "暖块软线风格"
+      ],
+      "粉黄红暖块": [
+        "暖块软线风格"
+      ],
+      "简笔抖动暗线": [
+        "灰黄孔痕风格"
+      ],
+      "半调孔点旧纸": [
+        "灰黄孔痕风格"
+      ],
+      "黑灰极简影形": [
+        "灰黄孔痕风格"
+      ],
+      "灰黄留白三值": [
+        "灰黄孔痕风格"
+      ],
+      "色面相接无描边": [
+        "亮孔彩网风格"
+      ],
+      "彩孔网格罩印": [
+        "亮孔彩网风格"
+      ],
+      "几何化静物面": [
+        "亮孔彩网风格"
+      ],
+      "明黄绿蓝亮撞": [
+        "亮孔彩网风格"
+      ],
+      "刺绣针脚缝边": [
+        "针绒缝童风格"
+      ],
+      "棉布毛线纤维": [
+        "针绒缝童风格"
+      ],
+      "圆润填充布偶": [
+        "针绒缝童风格"
+      ],
+      "温暖布料综合色": [
+        "针绒缝童风格"
+      ],
+      "细躁回勾线": [
+        "细躁赤蓝风格"
+      ],
+      "厚彩棒摩擦": [
+        "细躁赤蓝风格"
+      ],
+      "稚拙拥挤群形": [
+        "细躁赤蓝风格"
+      ],
+      "赤黄蓝高撞": [
+        "细躁赤蓝风格"
+      ],
+      "剪面锐边软脸缘": [
+        "低彩层影风格"
+      ],
+      "低彩粉哑涂层": [
+        "低彩层影风格"
+      ],
+      "图层剥离半立体": [
+        "低彩层影风格"
+      ],
+      "秋灰低饱和": [
+        "低彩层影风格"
+      ],
+      "深棕圆钝包边": [
+        "棕圆亮笔风格"
+      ],
+      "轻蜡纸面颗粒": [
+        "棕圆亮笔风格"
+      ],
+      "圆扁可爱简形": [
+        "棕圆亮笔风格"
+      ],
+      "亮橙绿高明度": [
+        "棕圆亮笔风格"
+      ],
+      "局部短排刻线": [
+        "复排平刷风格"
+      ],
+      "复古印纸细粒": [
+        "复排平刷风格"
+      ],
+      "扁透视家具人": [
+        "复排平刷风格"
+      ],
+      "品红深蓝复撞": [
+        "复排平刷风格"
+      ],
+      "无廓色雾融边": [
+        "霓雾粒梦风格"
+      ],
+      "粉彩粗粒闪点": [
+        "霓雾粒梦风格"
+      ],
+      "朦胧色块人物": [
+        "霓雾粒梦风格"
+      ],
+      "粉红黄橙霓彩": [
+        "霓雾粒梦风格"
+      ],
+      "色块成形弱边": [
+        "铅街干彩风格"
+      ],
+      "彩铅干刮纸齿": [
+        "铅街干彩风格"
+      ],
+      "无五官圆钝路人": [
+        "铅街干彩风格"
+      ],
+      "黄蓝红绿街彩": [
+        "铅街干彩风格"
+      ],
+      "纸板手绘墨边": [
+        "微本投影风格"
+      ],
+      "剪纸真实投影": [
+        "微本投影风格"
+      ],
+      "平面纸人纸树": [
+        "微本投影风格"
+      ],
+      "暖粉蓝绿绘本": [
+        "微本投影风格"
+      ],
+      "流畅赛璐闭合线": [
+        "赛璐旧线风格"
+      ],
+      "角色平滑背景粗刷": [
+        "赛璐旧线风格"
+      ],
+      "动画角色简构": [
+        "赛璐旧线风格"
+      ],
+      "旧动画平色": [
+        "赛璐旧线风格"
+      ],
+      "干裂刊墨硬线": [
+        "刊墨糙描风格"
+      ],
+      "旧刊纸张印刷晕": [
+        "刊墨糙描风格"
+      ],
+      "怪比例市井人物": [
+        "刊墨糙描风格"
+      ],
+      "低饱和旧印调": [
+        "刊墨糙描风格"
+      ],
+      "童书清墨圆边": [
+        "昭绘旧童风格"
+      ],
+      "旧书纸粒印感": [
+        "昭绘旧童风格"
+      ],
+      "扁圆童话角色": [
+        "昭绘旧童风格"
+      ],
+      "昭和红蓝黄绿": [
+        "昭绘旧童风格"
+      ],
+      "真实晾绳悬挂边": [
+        "晾物奇景风格"
+      ],
+      "布褶木夹沙地": [
+        "晾物奇景风格"
+      ],
+      "日用品悬拼物象": [
+        "晾物奇景风格"
+      ],
+      "户外摄影真实色": [
+        "晾物奇景风格"
+      ],
+      "软毛色块边界": [
+        "果雾软块风格"
+      ],
+      "果粉雾粒噪点": [
+        "果雾软块风格"
+      ],
+      "圆钝几何剪影": [
+        "果雾软块风格"
+      ],
+      "果色明暗强撞": [
+        "果雾软块风格"
+      ],
+      "朗阔圆角粗描": [
+        "朗描水块风格"
+      ],
+      "水渍薄彩块": [
+        "朗描水块风格"
+      ],
+      "圆简家庭人物": [
+        "朗描水块风格"
+      ],
+      "红蓝节庆明块": [
+        "朗描水块风格"
+      ],
+      "刺绣五官绒边": [
+        "棉刺短绒风格"
+      ],
+      "短绒针织立体绣": [
+        "棉刺短绒风格"
+      ],
+      "圆润潮流毛偶": [
+        "棉刺短绒风格"
+      ],
+      "紫灰暖粉腮": [
+        "棉刺短绒风格"
+      ],
+      "织缝衣褶边": [
+        "植绒微裳风格"
+      ],
+      "哑面植绒毛糙": [
+        "植绒微裳风格"
+      ],
+      "配饰夸张小偶": [
+        "植绒微裳风格"
+      ],
+      "奶黄橘紫蓝景": [
+        "植绒微裳风格"
+      ],
+      "灰铅发散毛线": [
+        "灰铅乱毛风格"
+      ],
+      "铅粉速写纸粒": [
+        "灰铅乱毛风格"
+      ],
+      "蓬松宠物头像": [
+        "灰铅乱毛风格"
+      ],
+      "灰阶赭点": [
+        "灰铅乱毛风格"
+      ],
+      "灰褐潦草枝笔": [
+        "淡水潦痕风格"
+      ],
+      "水彩回渗斑痕": [
+        "淡水潦痕风格"
+      ],
+      "自然物概括色块": [
+        "淡水潦痕风格"
+      ],
+      "淡蓝暖白清彩": [
+        "淡水潦痕风格"
+      ],
+      "抖散黑墨肢体线": [
+        "散墨淡日风格"
+      ],
+      "淡彩薄铺纸糙": [
+        "散墨淡日风格"
+      ],
+      "夸张生活动作体": [
+        "散墨淡日风格"
+      ],
+      "橙蓝绿局部明彩": [
+        "散墨淡日风格"
+      ],
+      "手撕毛糙边": [
+        "亮撕拼景风格"
+      ],
+      "彩纸颜料纤维": [
+        "亮撕拼景风格"
+      ],
+      "纸片家具人物": [
+        "亮撕拼景风格"
+      ],
+      "亮黄红蓝绿强撞": [
+        "亮撕拼景风格"
+      ],
+      "厚涂抖缘": [
+        "橙颊厚涂风格"
+      ],
+      "膏彩厚层纸噪": [
+        "橙颊厚涂风格"
+      ],
+      "橙颊圆脸童话体": [
+        "橙颊厚涂风格"
+      ],
+      "花园鲜艳密色": [
+        "橙颊厚涂风格"
+      ],
+      "深色压痕外廓": [
+        "深边圆画风格"
+      ],
+      "砂粒浓彩涂层": [
+        "深边圆画风格"
+      ],
+      "几何圆钝小人": [
+        "深边圆画风格"
+      ],
+      "灰绿粉肤柔撞": [
+        "深边圆画风格"
+      ],
+      "纸板直角折痕": [
+        "折盒方构风格"
+      ],
+      "哑印折盒贴图": [
+        "折盒方构风格"
+      ],
+      "矩形盒体方构": [
+        "折盒方构风格"
+      ],
+      "浅彩纸板实景色": [
+        "折盒方构风格"
+      ],
+      "油棒粗游外扩线": [
+        "油棒餐涂风格"
+      ],
+      "油棒厚擦白缝": [
+        "油棒餐涂风格"
+      ],
+      "桌物高度几何化": [
+        "油棒餐涂风格"
+      ],
+      "红黄蓝餐桌高彩": [
+        "油棒餐涂风格"
+      ],
+      "刻刀槽边脸线": [
+        "木柱刻彩风格"
+      ],
+      "木纹斑驳颜料": [
+        "木柱刻彩风格"
+      ],
+      "圆柱木偶小人": [
+        "木柱刻彩风格"
+      ],
+      "蓝白格手上色": [
+        "木柱刻彩风格"
+      ],
+      "玻璃折光器物边": [
+        "港桌微景风格"
+      ],
+      "木蕾丝玻璃金属": [
+        "港桌微景风格"
+      ],
+      "复古小物陈列": [
+        "港桌微景风格"
+      ],
+      "港式木金红蓝": [
+        "港桌微景风格"
+      ],
+      "黏土软圆边": [
+        "捏土圆剧风格"
+      ],
+      "手捏压痕泥面": [
+        "捏土圆剧风格"
+      ],
+      "圆钝笨拙玩具": [
+        "捏土圆剧风格"
+      ],
+      "复古糖果高彩": [
+        "捏土圆剧风格"
+      ],
+      "低模游戏洁边": [
+        "岛森简塑风格"
+      ],
+      "磨砂塑料渲染": [
+        "岛森简塑风格"
+      ],
+      "短身大头圆角": [
+        "岛森简塑风格"
+      ],
+      "岛屿糖果自然色": [
+        "岛森简塑风格"
+      ],
+      "符号式粗描边": [
+        "符章童绘风格"
+      ],
+      "干粒色痕留白": [
+        "符章童绘风格"
+      ],
+      "贴纸章幼态简形": [
+        "符章童绘风格"
+      ],
+      "原色小块并置": [
+        "符章童绘风格"
+      ],
+      "一位方格硬边": [
+        "霓位矩阵风格"
+      ],
+      "深屏发光点阵": [
+        "霓位矩阵风格"
+      ],
+      "极简一位图标": [
+        "霓位矩阵风格"
+      ],
+      "霓粉电蓝荧绿": [
+        "霓位矩阵风格"
+      ],
+      "扭曲夸描外形边": [
+        "怪彩扭像风格"
+      ],
+      "厚彩堆痕脏混": [
+        "怪彩扭像风格"
+      ],
+      "五官错位怪脸": [
+        "怪彩扭像风格"
+      ],
+      "非自然鲜撞色": [
+        "怪彩扭像风格"
+      ],
+      "硬切色块边": [
+        "亮芯硬铺风格"
+      ],
+      "色芯密排纸粒": [
+        "亮芯硬铺风格"
+      ],
+      "扁平几何人物": [
+        "亮芯硬铺风格"
+      ],
+      "青黄蓝橙直撞": [
+        "亮芯硬铺风格"
+      ],
+      "白光吞边": [
+        "白晕融粉风格"
+      ],
+      "湿粉融色雪点": [
+        "白晕融粉风格"
+      ],
+      "无脸柔影人宠": [
+        "白晕融粉风格"
+      ],
+      "淡蓝粉绿低对比": [
+        "白晕融粉风格"
+      ],
+      "发丝泥条分缝": [
+        "嵌瞳泥景风格"
+      ],
+      "手塑泥面嵌瞳": [
+        "嵌瞳泥景风格"
+      ],
+      "巨眼小鼻长身": [
+        "嵌瞳泥景风格"
+      ],
+      "雀斑腮粉实拍色": [
+        "嵌瞳泥景风格"
+      ]
+    },
+    "by_dimension_primary": {
+      "line:无线稿": [
+        "瓷眸凝釉风格",
+        "裁片叠影风格",
+        "古机齿块风格",
+        "妆铰闪唇风格",
+        "柔胶腮雕风格",
+        "齿毛怪仔风格",
+        "棱面低构风格",
+        "暖块软线风格",
+        "亮孔彩网风格",
+        "针绒缝童风格",
+        "细躁赤蓝风格",
+        "低彩层影风格",
+        "霓雾粒梦风格",
+        "铅街干彩风格",
+        "微本投影风格",
+        "晾物奇景风格",
+        "果雾软块风格",
+        "朗描水块风格",
+        "棉刺短绒风格",
+        "植绒微裳风格",
+        "淡水潦痕风格",
+        "亮撕拼景风格",
+        "折盒方构风格",
+        "油棒餐涂风格",
+        "木柱刻彩风格",
+        "港桌微景风格",
+        "捏土圆剧风格",
+        "岛森简塑风格",
+        "亮芯硬铺风格",
+        "白晕融粉风格",
+        "嵌瞳泥景风格"
+      ],
+      "brush_material:材质模拟": [
+        "瓷眸凝釉风格",
+        "裁片叠影风格",
+        "妆铰闪唇风格",
+        "柔胶腮雕风格",
+        "齿毛怪仔风格",
+        "针绒缝童风格",
+        "微本投影风格",
+        "晾物奇景风格",
+        "棉刺短绒风格",
+        "植绒微裳风格",
+        "亮撕拼景风格",
+        "折盒方构风格",
+        "木柱刻彩风格",
+        "港桌微景风格",
+        "捏土圆剧风格",
+        "岛森简塑风格",
+        "嵌瞳泥景风格"
+      ],
+      "form:轻度简化": [
+        "瓷眸凝釉风格",
+        "古机齿块风格",
+        "妆铰闪唇风格",
+        "柔胶腮雕风格",
+        "针绒缝童风格",
+        "细躁赤蓝风格",
+        "复排平刷风格",
+        "微本投影风格",
+        "赛璐旧线风格",
+        "昭绘旧童风格",
+        "朗描水块风格",
+        "淡水潦痕风格",
+        "白晕融粉风格",
+        "嵌瞳泥景风格"
+      ],
+      "color:自然/真实色调": [
+        "瓷眸凝釉风格",
+        "妆铰闪唇风格",
+        "齿毛怪仔风格",
+        "针绒缝童风格",
+        "晾物奇景风格",
+        "棉刺短绒风格",
+        "植绒微裳风格",
+        "折盒方构风格",
+        "木柱刻彩风格",
+        "港桌微景风格",
+        "嵌瞳泥景风格"
+      ],
+      "form:高度几何化": [
+        "裁片叠影风格",
+        "冷格平刷风格",
+        "断勾干擦风格",
+        "哑卡小头风格",
+        "齿毛怪仔风格",
+        "棱面低构风格",
+        "粗压童彩风格",
+        "暖块软线风格",
+        "灰黄孔痕风格",
+        "亮孔彩网风格",
+        "低彩层影风格",
+        "棕圆亮笔风格",
+        "霓雾粒梦风格",
+        "铅街干彩风格",
+        "晾物奇景风格",
+        "果雾软块风格",
+        "棉刺短绒风格",
+        "植绒微裳风格",
+        "散墨淡日风格",
+        "亮撕拼景风格",
+        "橙颊厚涂风格",
+        "深边圆画风格",
+        "折盒方构风格",
+        "木柱刻彩风格",
+        "捏土圆剧风格",
+        "岛森简塑风格",
+        "符章童绘风格",
+        "霓位矩阵风格",
+        "怪彩扭像风格",
+        "亮芯硬铺风格"
+      ],
+      "color:低饱和/莫兰迪": [
+        "裁片叠影风格",
+        "冷格平刷风格",
+        "古机齿块风格",
+        "哑卡小头风格",
+        "灰黄孔痕风格",
+        "低彩层影风格",
+        "微本投影风格",
+        "赛璐旧线风格",
+        "刊墨糙描风格",
+        "昭绘旧童风格",
+        "灰铅乱毛风格",
+        "淡水潦痕风格",
+        "散墨淡日风格",
+        "深边圆画风格",
+        "岛森简塑风格",
+        "怪彩扭像风格",
+        "白晕融粉风格"
+      ],
+      "line:中等线稿": [
+        "冷格平刷风格",
+        "赛璐旧线风格",
+        "昭绘旧童风格",
+        "散墨淡日风格",
+        "怪彩扭像风格"
+      ],
+      "brush_material:平滑/无纹理": [
+        "冷格平刷风格",
+        "哑卡小头风格",
+        "赛璐旧线风格",
+        "散墨淡日风格"
+      ],
+      "brush_material:像素/颗粒": [
+        "古机齿块风格",
+        "灰黄孔痕风格",
+        "亮孔彩网风格",
+        "霓雾粒梦风格",
+        "果雾软块风格",
+        "霓位矩阵风格",
+        "亮芯硬铺风格"
+      ],
+      "line:细线/轻线稿": [
+        "断勾干擦风格",
+        "哑卡小头风格",
+        "粗压童彩风格",
+        "灰黄孔痕风格",
+        "复排平刷风格",
+        "灰铅乱毛风格"
+      ],
+      "brush_material:明显笔触": [
+        "断勾干擦风格",
+        "粗压童彩风格",
+        "暖块软线风格",
+        "细躁赤蓝风格",
+        "铅街干彩风格",
+        "朗描水块风格",
+        "淡水潦痕风格",
+        "橙颊厚涂风格",
+        "深边圆画风格",
+        "油棒餐涂风格",
+        "符章童绘风格",
+        "怪彩扭像风格",
+        "白晕融粉风格"
+      ],
+      "color:高饱和/鲜艳": [
+        "断勾干擦风格",
+        "粗压童彩风格",
+        "暖块软线风格",
+        "亮孔彩网风格",
+        "细躁赤蓝风格",
+        "棕圆亮笔风格",
+        "铅街干彩风格",
+        "果雾软块风格",
+        "朗描水块风格",
+        "亮撕拼景风格",
+        "橙颊厚涂风格",
+        "油棒餐涂风格",
+        "捏土圆剧风格",
+        "符章童绘风格",
+        "亮芯硬铺风格"
+      ],
+      "color:荧光/霓虹/极端": [
+        "柔胶腮雕风格",
+        "棱面低构风格",
+        "复排平刷风格",
+        "霓雾粒梦风格",
+        "霓位矩阵风格"
+      ],
+      "brush_material:轻微肌理": [
+        "棱面低构风格",
+        "低彩层影风格",
+        "棕圆亮笔风格",
+        "复排平刷风格",
+        "刊墨糙描风格",
+        "昭绘旧童风格",
+        "灰铅乱毛风格"
+      ],
+      "line:粗黑线/强轮廓": [
+        "棕圆亮笔风格",
+        "刊墨糙描风格",
+        "橙颊厚涂风格",
+        "深边圆画风格",
+        "符章童绘风格",
+        "霓位矩阵风格"
+      ],
+      "form:写实/自然形态": [
+        "刊墨糙描风格",
+        "灰铅乱毛风格",
+        "油棒餐涂风格",
+        "港桌微景风格"
+      ]
+    },
+    "by_dimension_secondary": {
+      "line:瓷面高光边": [
+        "瓷眸凝釉风格"
+      ],
+      "brush_material:冷瓷瞳釉": [
+        "瓷眸凝釉风格"
+      ],
+      "form:巨瞳圆脸瓷偶": [
+        "瓷眸凝釉风格"
+      ],
+      "color:自然肤亮釉光": [
+        "瓷眸凝釉风格"
+      ],
+      "line:裁片硬切边": [
+        "裁片叠影风格"
+      ],
+      "brush_material:纤维裁片叠影": [
+        "裁片叠影风格"
+      ],
+      "form:扁平片层拼形": [
+        "裁片叠影风格"
+      ],
+      "color:灰蓝棕红低彩": [
+        "裁片叠影风格"
+      ],
+      "line:冷硬闭合墨边": [
+        "冷格平刷风格"
+      ],
+      "brush_material:无刷痕数字平刷": [
+        "冷格平刷风格"
+      ],
+      "form:二维简块人物": [
+        "冷格平刷风格"
+      ],
+      "color:低饱和冷色面": [
+        "冷格平刷风格"
+      ],
+      "line:阶梯锯齿硬边": [
+        "古机齿块风格"
+      ],
+      "brush_material:低清方块显像": [
+        "古机齿块风格"
+      ],
+      "form:块拼怪比例": [
+        "古机齿块风格"
+      ],
+      "color:旧机调色盘": [
+        "古机齿块风格"
+      ],
+      "line:断续漏接速勾": [
+        "断勾干擦风格"
+      ],
+      "brush_material:干擦纸面磨白": [
+        "断勾干擦风格"
+      ],
+      "form:速写概括变形": [
+        "断勾干擦风格"
+      ],
+      "color:局部跳色涂抹": [
+        "断勾干擦风格"
+      ],
+      "line:细针式卡面描边": [
+        "哑卡小头风格"
+      ],
+      "brush_material:哑面卡纸干刷斑": [
+        "哑卡小头风格"
+      ],
+      "form:粗肢小头夸张人": [
+        "哑卡小头风格"
+      ],
+      "color:哑彩低亮色块": [
+        "哑卡小头风格"
+      ],
+      "line:关节铰缝唇缘": [
+        "妆铰闪唇风格"
+      ],
+      "brush_material:亮唇硬塑妆面": [
+        "妆铰闪唇风格"
+      ],
+      "form:铰接时装体": [
+        "妆铰闪唇风格"
+      ],
+      "color:浓妆暗场彩点": [
+        "妆铰闪唇风格"
+      ],
+      "line:软雕圆缘": [
+        "柔胶腮雕风格"
+      ],
+      "brush_material:哑胶雕塑发束": [
+        "柔胶腮雕风格"
+      ],
+      "form:圆腮嘟口公仔": [
+        "柔胶腮雕风格"
+      ],
+      "color:奶油肤粉调": [
+        "柔胶腮雕风格"
+      ],
+      "line:毛束乱缘牙齿硬口": [
+        "齿毛怪仔风格"
+      ],
+      "brush_material:蓬毛针织光牙冲突": [
+        "齿毛怪仔风格"
+      ],
+      "form:怪牙小玩偶体": [
+        "齿毛怪仔风格"
+      ],
+      "color:暖调节日撞色": [
+        "齿毛怪仔风格"
+      ],
+      "line:多边折面锐边": [
+        "棱面低构风格"
+      ],
+      "brush_material:数字硬面无纹": [
+        "棱面低构风格"
+      ],
+      "form:低模几何体块": [
+        "棱面低构风格"
+      ],
+      "color:棱面明暗分色": [
+        "棱面低构风格"
+      ],
+      "line:细压童线": [
+        "粗压童彩风格"
+      ],
+      "brush_material:彩棒干缘露白": [
+        "粗压童彩风格"
+      ],
+      "form:夸简符号主体": [
+        "粗压童彩风格"
+      ],
+      "color:亮粉湖蓝直撞": [
+        "粗压童彩风格"
+      ],
+      "line:红色软游线": [
+        "暖块软线风格"
+      ],
+      "brush_material:水粉干扫粗纸": [
+        "暖块软线风格"
+      ],
+      "form:松弛拟人物件": [
+        "暖块软线风格"
+      ],
+      "color:粉黄红暖块": [
+        "暖块软线风格"
+      ],
+      "line:简笔抖动暗线": [
+        "灰黄孔痕风格"
+      ],
+      "brush_material:半调孔点旧纸": [
+        "灰黄孔痕风格"
+      ],
+      "form:黑灰极简影形": [
+        "灰黄孔痕风格"
+      ],
+      "color:灰黄留白三值": [
+        "灰黄孔痕风格"
+      ],
+      "line:色面相接无描边": [
+        "亮孔彩网风格"
+      ],
+      "brush_material:彩孔网格罩印": [
+        "亮孔彩网风格"
+      ],
+      "form:几何化静物面": [
+        "亮孔彩网风格"
+      ],
+      "color:明黄绿蓝亮撞": [
+        "亮孔彩网风格"
+      ],
+      "line:刺绣针脚缝边": [
+        "针绒缝童风格"
+      ],
+      "brush_material:棉布毛线纤维": [
+        "针绒缝童风格"
+      ],
+      "form:圆润填充布偶": [
+        "针绒缝童风格"
+      ],
+      "color:温暖布料综合色": [
+        "针绒缝童风格"
+      ],
+      "line:细躁回勾线": [
+        "细躁赤蓝风格"
+      ],
+      "brush_material:厚彩棒摩擦": [
+        "细躁赤蓝风格"
+      ],
+      "form:稚拙拥挤群形": [
+        "细躁赤蓝风格"
+      ],
+      "color:赤黄蓝高撞": [
+        "细躁赤蓝风格"
+      ],
+      "line:剪面锐边软脸缘": [
+        "低彩层影风格"
+      ],
+      "brush_material:低彩粉哑涂层": [
+        "低彩层影风格"
+      ],
+      "form:图层剥离半立体": [
+        "低彩层影风格"
+      ],
+      "color:秋灰低饱和": [
+        "低彩层影风格"
+      ],
+      "line:深棕圆钝包边": [
+        "棕圆亮笔风格"
+      ],
+      "brush_material:轻蜡纸面颗粒": [
+        "棕圆亮笔风格"
+      ],
+      "form:圆扁可爱简形": [
+        "棕圆亮笔风格"
+      ],
+      "color:亮橙绿高明度": [
+        "棕圆亮笔风格"
+      ],
+      "line:局部短排刻线": [
+        "复排平刷风格"
+      ],
+      "brush_material:复古印纸细粒": [
+        "复排平刷风格"
+      ],
+      "form:扁透视家具人": [
+        "复排平刷风格"
+      ],
+      "color:品红深蓝复撞": [
+        "复排平刷风格"
+      ],
+      "line:无廓色雾融边": [
+        "霓雾粒梦风格"
+      ],
+      "brush_material:粉彩粗粒闪点": [
+        "霓雾粒梦风格"
+      ],
+      "form:朦胧色块人物": [
+        "霓雾粒梦风格"
+      ],
+      "color:粉红黄橙霓彩": [
+        "霓雾粒梦风格"
+      ],
+      "line:色块成形弱边": [
+        "铅街干彩风格"
+      ],
+      "brush_material:彩铅干刮纸齿": [
+        "铅街干彩风格"
+      ],
+      "form:无五官圆钝路人": [
+        "铅街干彩风格"
+      ],
+      "color:黄蓝红绿街彩": [
+        "铅街干彩风格"
+      ],
+      "line:纸板手绘墨边": [
+        "微本投影风格"
+      ],
+      "brush_material:剪纸真实投影": [
+        "微本投影风格"
+      ],
+      "form:平面纸人纸树": [
+        "微本投影风格"
+      ],
+      "color:暖粉蓝绿绘本": [
+        "微本投影风格"
+      ],
+      "line:流畅赛璐闭合线": [
+        "赛璐旧线风格"
+      ],
+      "brush_material:角色平滑背景粗刷": [
+        "赛璐旧线风格"
+      ],
+      "form:动画角色简构": [
+        "赛璐旧线风格"
+      ],
+      "color:旧动画平色": [
+        "赛璐旧线风格"
+      ],
+      "line:干裂刊墨硬线": [
+        "刊墨糙描风格"
+      ],
+      "brush_material:旧刊纸张印刷晕": [
+        "刊墨糙描风格"
+      ],
+      "form:怪比例市井人物": [
+        "刊墨糙描风格"
+      ],
+      "color:低饱和旧印调": [
+        "刊墨糙描风格"
+      ],
+      "line:童书清墨圆边": [
+        "昭绘旧童风格"
+      ],
+      "brush_material:旧书纸粒印感": [
+        "昭绘旧童风格"
+      ],
+      "form:扁圆童话角色": [
+        "昭绘旧童风格"
+      ],
+      "color:昭和红蓝黄绿": [
+        "昭绘旧童风格"
+      ],
+      "line:真实晾绳悬挂边": [
+        "晾物奇景风格"
+      ],
+      "brush_material:布褶木夹沙地": [
+        "晾物奇景风格"
+      ],
+      "form:日用品悬拼物象": [
+        "晾物奇景风格"
+      ],
+      "color:户外摄影真实色": [
+        "晾物奇景风格"
+      ],
+      "line:软毛色块边界": [
+        "果雾软块风格"
+      ],
+      "brush_material:果粉雾粒噪点": [
+        "果雾软块风格"
+      ],
+      "form:圆钝几何剪影": [
+        "果雾软块风格"
+      ],
+      "color:果色明暗强撞": [
+        "果雾软块风格"
+      ],
+      "line:朗阔圆角粗描": [
+        "朗描水块风格"
+      ],
+      "brush_material:水渍薄彩块": [
+        "朗描水块风格"
+      ],
+      "form:圆简家庭人物": [
+        "朗描水块风格"
+      ],
+      "color:红蓝节庆明块": [
+        "朗描水块风格"
+      ],
+      "line:刺绣五官绒边": [
+        "棉刺短绒风格"
+      ],
+      "brush_material:短绒针织立体绣": [
+        "棉刺短绒风格"
+      ],
+      "form:圆润潮流毛偶": [
+        "棉刺短绒风格"
+      ],
+      "color:紫灰暖粉腮": [
+        "棉刺短绒风格"
+      ],
+      "line:织缝衣褶边": [
+        "植绒微裳风格"
+      ],
+      "brush_material:哑面植绒毛糙": [
+        "植绒微裳风格"
+      ],
+      "form:配饰夸张小偶": [
+        "植绒微裳风格"
+      ],
+      "color:奶黄橘紫蓝景": [
+        "植绒微裳风格"
+      ],
+      "line:灰铅发散毛线": [
+        "灰铅乱毛风格"
+      ],
+      "brush_material:铅粉速写纸粒": [
+        "灰铅乱毛风格"
+      ],
+      "form:蓬松宠物头像": [
+        "灰铅乱毛风格"
+      ],
+      "color:灰阶赭点": [
+        "灰铅乱毛风格"
+      ],
+      "line:灰褐潦草枝笔": [
+        "淡水潦痕风格"
+      ],
+      "brush_material:水彩回渗斑痕": [
+        "淡水潦痕风格"
+      ],
+      "form:自然物概括色块": [
+        "淡水潦痕风格"
+      ],
+      "color:淡蓝暖白清彩": [
+        "淡水潦痕风格"
+      ],
+      "line:抖散黑墨肢体线": [
+        "散墨淡日风格"
+      ],
+      "brush_material:淡彩薄铺纸糙": [
+        "散墨淡日风格"
+      ],
+      "form:夸张生活动作体": [
+        "散墨淡日风格"
+      ],
+      "color:橙蓝绿局部明彩": [
+        "散墨淡日风格"
+      ],
+      "line:手撕毛糙边": [
+        "亮撕拼景风格"
+      ],
+      "brush_material:彩纸颜料纤维": [
+        "亮撕拼景风格"
+      ],
+      "form:纸片家具人物": [
+        "亮撕拼景风格"
+      ],
+      "color:亮黄红蓝绿强撞": [
+        "亮撕拼景风格"
+      ],
+      "line:厚涂抖缘": [
+        "橙颊厚涂风格"
+      ],
+      "brush_material:膏彩厚层纸噪": [
+        "橙颊厚涂风格"
+      ],
+      "form:橙颊圆脸童话体": [
+        "橙颊厚涂风格"
+      ],
+      "color:花园鲜艳密色": [
+        "橙颊厚涂风格"
+      ],
+      "line:深色压痕外廓": [
+        "深边圆画风格"
+      ],
+      "brush_material:砂粒浓彩涂层": [
+        "深边圆画风格"
+      ],
+      "form:几何圆钝小人": [
+        "深边圆画风格"
+      ],
+      "color:灰绿粉肤柔撞": [
+        "深边圆画风格"
+      ],
+      "line:纸板直角折痕": [
+        "折盒方构风格"
+      ],
+      "brush_material:哑印折盒贴图": [
+        "折盒方构风格"
+      ],
+      "form:矩形盒体方构": [
+        "折盒方构风格"
+      ],
+      "color:浅彩纸板实景色": [
+        "折盒方构风格"
+      ],
+      "line:油棒粗游外扩线": [
+        "油棒餐涂风格"
+      ],
+      "brush_material:油棒厚擦白缝": [
+        "油棒餐涂风格"
+      ],
+      "form:桌物高度几何化": [
+        "油棒餐涂风格"
+      ],
+      "color:红黄蓝餐桌高彩": [
+        "油棒餐涂风格"
+      ],
+      "line:刻刀槽边脸线": [
+        "木柱刻彩风格"
+      ],
+      "brush_material:木纹斑驳颜料": [
+        "木柱刻彩风格"
+      ],
+      "form:圆柱木偶小人": [
+        "木柱刻彩风格"
+      ],
+      "color:蓝白格手上色": [
+        "木柱刻彩风格"
+      ],
+      "line:玻璃折光器物边": [
+        "港桌微景风格"
+      ],
+      "brush_material:木蕾丝玻璃金属": [
+        "港桌微景风格"
+      ],
+      "form:复古小物陈列": [
+        "港桌微景风格"
+      ],
+      "color:港式木金红蓝": [
+        "港桌微景风格"
+      ],
+      "line:黏土软圆边": [
+        "捏土圆剧风格"
+      ],
+      "brush_material:手捏压痕泥面": [
+        "捏土圆剧风格"
+      ],
+      "form:圆钝笨拙玩具": [
+        "捏土圆剧风格"
+      ],
+      "color:复古糖果高彩": [
+        "捏土圆剧风格"
+      ],
+      "line:低模游戏洁边": [
+        "岛森简塑风格"
+      ],
+      "brush_material:磨砂塑料渲染": [
+        "岛森简塑风格"
+      ],
+      "form:短身大头圆角": [
+        "岛森简塑风格"
+      ],
+      "color:岛屿糖果自然色": [
+        "岛森简塑风格"
+      ],
+      "line:符号式粗描边": [
+        "符章童绘风格"
+      ],
+      "brush_material:干粒色痕留白": [
+        "符章童绘风格"
+      ],
+      "form:贴纸章幼态简形": [
+        "符章童绘风格"
+      ],
+      "color:原色小块并置": [
+        "符章童绘风格"
+      ],
+      "line:一位方格硬边": [
+        "霓位矩阵风格"
+      ],
+      "brush_material:深屏发光点阵": [
+        "霓位矩阵风格"
+      ],
+      "form:极简一位图标": [
+        "霓位矩阵风格"
+      ],
+      "color:霓粉电蓝荧绿": [
+        "霓位矩阵风格"
+      ],
+      "line:扭曲夸描外形边": [
+        "怪彩扭像风格"
+      ],
+      "brush_material:厚彩堆痕脏混": [
+        "怪彩扭像风格"
+      ],
+      "form:五官错位怪脸": [
+        "怪彩扭像风格"
+      ],
+      "color:非自然鲜撞色": [
+        "怪彩扭像风格"
+      ],
+      "line:硬切色块边": [
+        "亮芯硬铺风格"
+      ],
+      "brush_material:色芯密排纸粒": [
+        "亮芯硬铺风格"
+      ],
+      "form:扁平几何人物": [
+        "亮芯硬铺风格"
+      ],
+      "color:青黄蓝橙直撞": [
+        "亮芯硬铺风格"
+      ],
+      "line:白光吞边": [
+        "白晕融粉风格"
+      ],
+      "brush_material:湿粉融色雪点": [
+        "白晕融粉风格"
+      ],
+      "form:无脸柔影人宠": [
+        "白晕融粉风格"
+      ],
+      "color:淡蓝粉绿低对比": [
+        "白晕融粉风格"
+      ],
+      "line:发丝泥条分缝": [
+        "嵌瞳泥景风格"
+      ],
+      "brush_material:手塑泥面嵌瞳": [
+        "嵌瞳泥景风格"
+      ],
+      "form:巨眼小鼻长身": [
+        "嵌瞳泥景风格"
+      ],
+      "color:雀斑腮粉实拍色": [
+        "嵌瞳泥景风格"
+      ]
+    }
+  },
+  "parse_errors": []
+}
