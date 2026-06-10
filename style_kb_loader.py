@@ -1,21 +1,21 @@
+"""ComfyUI 风格技法知识库节点 — 加载 knowledge_base/*.json。"""
 import json
 import os
 from typing import Dict, List, Optional
 
 
-def _kb_dir() -> str:
-    return os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), "knowledge_base")
+_EXT_DIR = os.path.dirname(os.path.abspath(__file__))
+_KB_DIR = os.path.join(_EXT_DIR, "knowledge_base")
 
 
 def _kb_files() -> List[str]:
-    folder = _kb_dir()
-    if not os.path.isdir(folder):
+    if not os.path.isdir(_KB_DIR):
         return []
-    return sorted(name for name in os.listdir(folder) if name.lower().endswith(".json"))
+    return sorted(name for name in os.listdir(_KB_DIR) if name.lower().endswith(".json"))
 
 
 def _load_entries(filename: str) -> List[Dict]:
-    path = os.path.join(_kb_dir(), filename)
+    path = os.path.join(_KB_DIR, filename)
     with open(path, "r", encoding="utf-8") as f:
         data = json.load(f)
     return list(data.get("entries", []) or [])
@@ -45,7 +45,7 @@ def _names_from_entries(entries: List[Dict]) -> List[str]:
 
 
 # ---------------------------------------------------------------------------
-# 节点 1：按风格下拉加载
+# 节点 1：Style KB Loader — 按风格下拉加载
 # ---------------------------------------------------------------------------
 
 class StyleKBLoader:
@@ -53,7 +53,10 @@ class StyleKBLoader:
     def INPUT_TYPES(cls):
         files = _kb_files() or ["<knowledge_base 为空>"]
         try:
-            entries = _load_entries(files[0]) if files and not files[0].startswith("<") else []
+            if files and not files[0].startswith("<"):
+                entries = _load_entries(files[0])
+            else:
+                entries = []
         except Exception:
             entries = []
         style_names = _names_from_entries(entries)
@@ -69,33 +72,25 @@ class StyleKBLoader:
         }
 
     RETURN_TYPES = (
-        "STRING",  # 0 prompt_phrase (可直接喂 CLIP)
-        "STRING",  # 1 style_special_word
-        "STRING",  # 2 aliases  (以逗号连接)
-        "STRING",  # 3 line_primary
-        "STRING",  # 4 line_secondary
-        "STRING",  # 5 brush_material_primary
-        "STRING",  # 6 brush_material_secondary
-        "STRING",  # 7 form_primary
-        "STRING",  # 8 form_secondary
-        "STRING",  # 9 color_primary
-        "STRING",  # 10 color_secondary
-        "STRING",  # 11 techniques_flat (  human-readable summary )
-        "STRING",  # 12 search_text
-        "STRING",  # 13 entry_json
+        "STRING",
+        "STRING",
+        "STRING",
+        "STRING", "STRING",
+        "STRING", "STRING",
+        "STRING", "STRING",
+        "STRING", "STRING",
+        "STRING",
+        "STRING",
+        "STRING",
     )
     RETURN_NAMES = (
         "prompt",
         "style_name",
         "aliases",
-        "line_primary",
-        "line_secondary",
-        "brush_material_primary",
-        "brush_material_secondary",
-        "form_primary",
-        "form_secondary",
-        "color_primary",
-        "color_secondary",
+        "line_primary", "line_secondary",
+        "brush_material_primary", "brush_material_secondary",
+        "form_primary", "form_secondary",
+        "color_primary", "color_secondary",
         "techniques_summary",
         "search_text",
         "entry_json",
@@ -104,16 +99,16 @@ class StyleKBLoader:
     CATEGORY = "StyleKB"
 
     def load_entry(self, kb_file, style_name, extra_positive="", extra_location="append"):
-        missing = ("",) * 14
+        empty = ("",) * 14
         try:
             if kb_file.startswith("<"):
-                return missing
+                return empty
             entries = _load_entries(kb_file)
             entry = _entry_by_style_name(entries, style_name)
             if entry is None and entries:
                 entry = entries[0]
             if not entry:
-                return missing
+                return empty
 
             techniques = entry.get("techniques", []) or []
             line = _tech_by_dim(techniques, "line")
@@ -130,7 +125,7 @@ class StyleKBLoader:
                 else:  # append
                     main = f"{main}, {extra_positive}" if main else extra_positive
 
-            flat = []
+            summary_parts = []
             for dim_key, dim_label in [
                 ("line", "线条技法"),
                 ("brush_material", "质感/材质"),
@@ -141,7 +136,7 @@ class StyleKBLoader:
                 p = t.get("primary", "")
                 s = t.get("secondary", "")
                 if p or s:
-                    flat.append(f"[{dim_label}] {p} / {s}".strip())
+                    summary_parts.append(f"[{dim_label}] {p} / {s}".strip())
 
             return (
                 main,
@@ -155,7 +150,7 @@ class StyleKBLoader:
                 form.get("secondary", "") or "",
                 color.get("primary", "") or "",
                 color.get("secondary", "") or "",
-                " | ".join(flat),
+                " | ".join(summary_parts),
                 entry.get("search_text", "") or "",
                 json.dumps(entry, ensure_ascii=False, indent=2),
             )
@@ -164,7 +159,7 @@ class StyleKBLoader:
 
 
 # ---------------------------------------------------------------------------
-# 节点 2：关键词搜索，返回 Top-K 的 prompt/style_name 字符串
+# 节点 2：Style KB Search — 关键词搜索
 # ---------------------------------------------------------------------------
 
 class StyleKBSearch:
@@ -176,7 +171,7 @@ class StyleKBSearch:
                 "kb_file": (files,),
                 "keyword": ("STRING", {"default": "", "multiline": False}),
                 "top_k": ("INT", {"default": 5, "min": 1, "max": 50, "step": 1}),
-                "separator": ("STRING", {"default": "\n"}),
+                "separator": ("STRING", {"default": "\\n"}),
                 "output_mode": (["prompt_phrase", "style_special_word"],),
             },
         }
@@ -186,25 +181,23 @@ class StyleKBSearch:
     FUNCTION = "search"
     CATEGORY = "StyleKB"
 
-    def search(self, kb_file, keyword, top_k=5, separator="\n", output_mode="prompt_phrase"):
+    def search(self, kb_file, keyword, top_k=5, separator="\\n", output_mode="prompt_phrase"):
         empty = ("", "", "")
         try:
             if kb_file.startswith("<"):
                 return empty
             entries = _load_entries(kb_file)
-            keyword = (keyword or "").strip().lower()
+            kw = (keyword or "").strip().lower()
             scored = []
             for e in entries:
-                haystack = " ".join(
-                    [
-                        e.get("style_special_word", "") or "",
-                        " ".join(e.get("aliases", []) or []),
-                        e.get("search_text", "") or "",
-                        e.get("prompt_phrase", "") or "",
-                    ]
-                ).lower()
-                if keyword and keyword in haystack:
-                    scored.append((haystack.count(keyword), e))
+                haystack = " ".join([
+                    e.get("style_special_word", "") or "",
+                    " ".join(e.get("aliases", []) or []),
+                    e.get("search_text", "") or "",
+                    e.get("prompt_phrase", "") or "",
+                ]).lower()
+                if kw and kw in haystack:
+                    scored.append((haystack.count(kw), e))
                 elif not keyword:
                     scored.append((1, e))
             scored.sort(key=lambda x: x[0], reverse=True)
@@ -225,7 +218,7 @@ class StyleKBSearch:
 
 
 # ---------------------------------------------------------------------------
-# 节点 3：按技法维度（线条/材质/形体/色彩）的 primary/secondary 值筛选
+# 节点 3：Style KB Filter by Technique — 按技法维度筛选
 # ---------------------------------------------------------------------------
 
 class StyleKBFilterByTechnique:
@@ -239,7 +232,7 @@ class StyleKBFilterByTechnique:
                 "dimension": (dims, {"default": "any"}),
                 "keyword": ("STRING", {"default": "", "multiline": False}),
                 "top_k": ("INT", {"default": 5, "min": 1, "max": 50, "step": 1}),
-                "separator": ("STRING", {"default": "\n"}),
+                "separator": ("STRING", {"default": "\\n"}),
                 "output_mode": (["prompt_phrase", "style_special_word"],),
             },
         }
@@ -249,7 +242,7 @@ class StyleKBFilterByTechnique:
     FUNCTION = "filter_tech"
     CATEGORY = "StyleKB"
 
-    def filter_tech(self, kb_file, dimension, keyword, top_k=5, separator="\n", output_mode="prompt_phrase"):
+    def filter_tech(self, kb_file, dimension, keyword, top_k=5, separator="\\n", output_mode="prompt_phrase"):
         empty = ("", "")
         try:
             if kb_file.startswith("<"):
@@ -259,15 +252,15 @@ class StyleKBFilterByTechnique:
             matches = []
             for e in entries:
                 techs = e.get("techniques", []) or []
-                haystacks = []
+                haystack = []
                 for t in techs:
                     if dimension == "any" or t.get("dimension") == dimension:
-                        haystacks.append(t.get("primary", "") or "")
-                        haystacks.append(t.get("secondary", "") or "")
-                        haystacks.append(t.get("dimension_zh", "") or "")
-                haystack = " ".join(haystacks).lower()
-                if kw in haystack:
-                    matches.append((haystack.count(kw), e))
+                        haystack.append(t.get("primary", "") or "")
+                        haystack.append(t.get("secondary", "") or "")
+                        haystack.append(t.get("dimension_zh", "") or "")
+                joined = " ".join(haystack).lower()
+                if kw in joined:
+                    matches.append((joined.count(kw), e))
             matches.sort(key=lambda x: x[0], reverse=True)
             selected = [e for _, e in matches[:top_k]]
             if output_mode == "prompt_phrase":
@@ -282,7 +275,7 @@ class StyleKBFilterByTechnique:
 
 
 # ---------------------------------------------------------------------------
-# 节点 4：把多条字符串用分隔符拼接（通用工具节点，用来拼装 prompt）
+# 节点 4：Style KB Join — 通用文本拼接
 # ---------------------------------------------------------------------------
 
 class StyleKBJoin:
@@ -327,3 +320,24 @@ NODE_DISPLAY_NAME_MAPPINGS = {
     "StyleKBFilterByTechnique": "Style KB Filter by Technique",
     "StyleKBJoin": "Style KB Join",
 }
+
+
+# ---------------------------------------------------------------------------
+# 自测：python -m <this_file> 即可快速验证
+# ---------------------------------------------------------------------------
+if __name__ == "__main__":
+    it = StyleKBLoader.INPUT_TYPES()
+    print("kb_file:", it["required"]["kb_file"][0])
+    print("风格数:", len(it["required"]["style_name"][0]))
+    print("前 3 个:", it["required"]["style_name"][0][:3])
+    kb_file = it["required"]["kb_file"][0][0]
+    style = it["required"]["style_name"][0][0]
+    out = StyleKBLoader().load_entry(kb_file, style, extra_positive="1girl", extra_location="prepend")
+    for n, v in zip(StyleKBLoader.RETURN_NAMES, out):
+        print(f"  {n:<28}: {str(v)[:80]}")
+    r = StyleKBSearch().search(kb_file, "低饱和", top_k=3, output_mode="style_special_word")
+    print("[search 低饱和]:", r[1])
+    r = StyleKBFilterByTechnique().filter_tech(kb_file, "line", "硬边", top_k=5, output_mode="style_special_word")
+    print("[filter line/硬边]:", r[1])
+    r = StyleKBJoin().join_text("1girl", "blue eyes", "", "smile", separator=", ", skip_empty="true")
+    print("[join]:", r[0])
